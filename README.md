@@ -1,2 +1,2 @@
 # LeetCode-Solution
-Every day learn a bit
+Every Day Learn A Bit
