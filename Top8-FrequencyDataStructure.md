@@ -1,5 +1,5 @@
 Top 8 data structure frequent used
-1. Array
+## 1. Array
 ![alt text](./image/array.png)
  ```js
     const arr = [1,2,3,4,5]
@@ -10,12 +10,12 @@ Top 8 data structure frequent used
     console.log(arr)   // [1,2,3,4,5]
 ```
 
-2. Queue(First-In-First-Out),  Stack(First-In-Last-Out)
+## 2. Queue(First-In-First-Out),  Stack(First-In-Last-Out)
 ![alt text](./image/queue.png)
 
-3. Linked List
+## 3. Linked List
 ![alt text](./image/linkedList.png)
-4. HashMap(Key-Value Pairs, in JavaScript can use Object/Map)
+## 4. HashMap(Key-Value Pairs, in JavaScript can use Object/Map)
 ![alt text](./image/hashMap.png)
  ```js
    const map = new Map([
@@ -40,18 +40,18 @@ Top 8 data structure frequent used
     // method=====()=>{console.log('I am a method')}
 ```
 
-5. Binary Tree(left node is always smaller than the root, while the right node is always larger than root)
+## 5. Binary Tree(left node is always smaller than the root, while the right node is always larger than root)
 ![alt text](./image/binaryTree.png)
 
-## Key Points for `isValidBST` Function
+# Key Points for `isValidBST` Function
 
 You can find the function definition in [`validateBST.js`](./validateBinarySearchTree.js).
 
-6. Trie/Prefix Tree   26 alphabets
+##  6. Trie/Prefix Tree   26 alphabets
 ![alt text](./image/trie.png)
 
-7. Heap
+##  7. Heap
 ![alt text](./image/heap.png)
-8. Graph
+## 8. Graph
 
 ![alt text](./image/graph.png)
