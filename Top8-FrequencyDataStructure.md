@@ -43,6 +43,10 @@ Top 8 data structure frequent used
 5. Binary Tree(left node is always smaller than the root, while the right node is always larger than root)
 ![alt text](./image/binaryTree.png)
 
+## Key Points for `isValidBST` Function
+
+You can find the function definition in [`validateBST.js`](./validateBinarySearchTree.js).
+
 6. Trie/Prefix Tree   26 alphabets
 ![alt text](./image/trie.png)
 
