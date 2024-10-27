@@ -39,6 +39,7 @@ Top 8 data structure frequent used
     // age=====25
     // method=====()=>{console.log('I am a method')}
 ```
+If you want to learn more about the Map data structure use in JavaScript scenarios, you can find the use case in [`timeLimitedCache.js`](./timeLimitedCache.js).
 
 ## 5. Binary Tree(left node is always smaller than the root, while the right node is always larger than root)
 ![alt text](./image/binaryTree.png)
