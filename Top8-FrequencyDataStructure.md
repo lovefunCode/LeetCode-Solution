@@ -43,7 +43,9 @@ Top 8 data structure frequent used
 ## 5. Binary Tree(left node is always smaller than the root, while the right node is always larger than root)
 ![alt text](./image/binaryTree.png)
 
-# Key Points for `isValidBST` Function
+### Key Points for `isValidBST` Function
+- Uses recursion to validate each node.
+- Each node’s value should be within a specific range (`min` and `max` bounds).
 
 You can find the function definition in [`validateBST.js`](./validateBinarySearchTree.js).
 
