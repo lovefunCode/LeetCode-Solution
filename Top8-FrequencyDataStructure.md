@@ -63,3 +63,5 @@ You can find the function definition in [`maxDepthBinaryTree.js`](./maxDepthBina
 ## 8. Graph
 
 ![alt text](./image/graph.png)
+graph has 2 different ways to represent
+You can find the BFS(Breadth-First-Search graph) function definition in [`bfsGraph.js`](./bfsGraph.js).
