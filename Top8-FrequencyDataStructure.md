@@ -41,7 +41,8 @@ Top 8 data structure frequent used
 ```
 If you want to learn more about the Map data structure use in JavaScript scenarios, you can find the use case in [`timeLimitedCache.js`](./timeLimitedCache.js).
 
-## 5. Binary Tree(left node is always smaller than the root, while the right node is always larger than root)
+## 5. Binary Tree
+### 1. Binary Search Tree (left node is always smaller than the root, while the right node is always larger than root)
 ![alt text](./image/binaryTree.png)
 
 ### Key Points for `isValidBST` Function
@@ -49,6 +50,10 @@ If you want to learn more about the Map data structure use in JavaScript scenari
 - Each node’s value should be within a specific range (`min` and `max` bounds).
 
 You can find the function definition in [`validateBST.js`](./validateBinarySearchTree.js).
+
+### 2. Maximum Depth of Binary Tree
+![alt text](./image/maxDepthBinaryTree.png)
+You can find the function definition in [`maxDepthBinaryTree.js`](./maxDepthBinaryTree.js).
 
 ##  6. Trie/Prefix Tree   26 alphabets
 ![alt text](./image/trie.png)
