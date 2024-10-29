@@ -13,6 +13,9 @@ Top 8 data structure frequent used
 ## 2. Queue(First-In-First-Out),  Stack(First-In-Last-Out)
 ![alt text](./image/queue.png)
 
+### Stack use scenarios
+You can find the function definition in [`vaildParentheses.js`](./vaildParentheses.js).
+
 ## 3. Linked List
 ![alt text](./image/linkedList.png)
 ## 4. HashMap(Key-Value Pairs, in JavaScript can use Object/Map)
@@ -47,7 +50,7 @@ In JavsScript, 2 solutions to create HashMap data structure
 |--------------------|-------------------------------------------|----------------------------------------------------|
 | Key Types          | Strings and Symbols                       | Any Values(Object, functions, primitive values)    |
 | Order of Keys      | No guaranteed order                       | Maintains the order of keys based on insertion     |
-| Size               | NO buil-in Methods to get the size        | map.size                                         |
+| Size               | NO buil-in Methods to get the size        | map.size                                           |
 | Performance        | faster for lookups when using string keys | More efficient for frequent additions and removals |
 | Add                | obj[key] = value                          | map.set(key, value)                                |
 | Access             | obj[key]                                  | map.get(key)                                       |
