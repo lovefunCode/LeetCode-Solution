@@ -14,7 +14,7 @@ Top 8 data structure frequent used
 ![alt text](./image/queue.png)
 
 ### Stack use scenarios
-You can find the function definition in [`vaildParentheses.js`](./vaildParentheses.js).
+You can find the function definition in [`validParentheses.js`](./validParentheses.js).
 
 ## 3. Linked List
 ![alt text](./image/linkedList.png)
