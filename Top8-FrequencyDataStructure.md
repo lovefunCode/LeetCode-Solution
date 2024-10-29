@@ -55,6 +55,10 @@ You can find the function definition in [`validateBST.js`](./validateBinarySearc
 ![alt text](./image/maxDepthBinaryTree.png)
 You can find the function definition in [`maxDepthBinaryTree.js`](./maxDepthBinaryTree.js).
 
+### 3. Breadth-First-Search(BST)
+You can find the function definition in [`BreadthFirstSearch.js`](./BreadthFirstSearch.js).
+
+
 ##  6. Trie/Prefix Tree   26 alphabets
 ![alt text](./image/trie.png)
 
