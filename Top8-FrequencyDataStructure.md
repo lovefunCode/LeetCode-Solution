@@ -47,7 +47,7 @@ In JavsScript, 2 solutions to create HashMap data structure
 |--------------------|-------------------------------------------|----------------------------------------------------|
 | Key Types          | Strings and Symbols                       | Any Values(Object, functions, primitive values)    |
 | Order of Keys      | No guaranteed order                       | Maintains the order of keys based on insertion     |
-| Size               | NO buil-in Methods to get the size        | using size                                         |
+| Size               | NO buil-in Methods to get the size        | map.size                                         |
 | Performance        | faster for lookups when using string keys | More efficient for frequent additions and removals |
 | Add                | obj[key] = value                          | map.set(key, value)                                |
 | Access             | obj[key]                                  | map.get(key)                                       |
