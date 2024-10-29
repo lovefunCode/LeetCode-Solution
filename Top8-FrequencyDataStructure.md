@@ -38,8 +38,23 @@ Top 8 data structure frequent used
     // name=====Alice
     // age=====25
     // method=====()=>{console.log('I am a method')}
+
 ```
 If you want to learn more about the Map data structure use in JavaScript scenarios, you can find the use case in [`timeLimitedCache.js`](./timeLimitedCache.js).
+
+In JavsScript, 2 solutions to create HashMap data structure
+| Feature            | Object                                    | Map                                                |
+|--------------------|-------------------------------------------|----------------------------------------------------|
+| Key Types          | Strings and Symbols                       | Any Values(Object, functions, primitive values)    |
+| Order of Keys      | No guaranteed order                       | Maintains the order of keys based on insertion     |
+| Size               | NO buil-in Methods to get the size        | using size                                         |
+| Performance        | faster for lookups when using string keys | More efficient for frequent additions and removals |
+| Add                | obj[key] = value                          | map.set(key, value)                                |
+| Access             | obj[key]                                  | map.get(key)                                       |
+| Delete             | delete obj[key]                           | map.delete(key)                                    |
+| Checking existence | key in obj or obj.hasOwnProperty(key)     | map.has(key)                                       |
+| Clone              | Object.assign() or ...                    | new Map(existingMap)                               |
+| Memory Usage       | Generally uses less memory for small sets | More memory-efficient for larger set               |
 
 ## 5. Binary Tree
 ### 1. Binary Search Tree (left node is always smaller than the root, while the right node is always larger than root)
