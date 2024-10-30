@@ -1,4 +1,4 @@
-Top 8 data structure frequent used
+# Top 8 Data Structure Frequently Used
 ## 1. Array
 ![alt text](./image/array.png)
  ```js
@@ -46,18 +46,26 @@ You can find the function definition in [`validParentheses.js`](./validParenthes
 If you want to learn more about the Map data structure use in JavaScript scenarios, you can find the use case in [`timeLimitedCache.js`](./timeLimitedCache.js).
 
 In JavsScript, 2 solutions to create HashMap data structure
-| Feature            | Object                                    | Map                                                |
-|--------------------|-------------------------------------------|----------------------------------------------------|
-| Key Types          | Strings and Symbols                       | Any Values(Object, functions, primitive values)    |
-| Order of Keys      | No guaranteed order                       | Maintains the order of keys based on insertion     |
-| Size               | NO buil-in Methods to get the size        | map.size                                           |
-| Performance        | faster for lookups when using string keys | More efficient for frequent additions and removals |
-| Add                | obj[key] = value                          | map.set(key, value)                                |
-| Access             | obj[key]                                  | map.get(key)                                       |
-| Delete             | delete obj[key]                           | map.delete(key)                                    |
-| Checking existence | key in obj or obj.hasOwnProperty(key)     | map.has(key)                                       |
-| Clone              | Object.assign() or ...                    | new Map(existingMap)                               |
-| Memory Usage       | Generally uses less memory for small sets | More memory-efficient for larger set               |
+
+| Feature            | Object                                                                                        | Map                                                                   |
+|--------------------|-----------------------------------------------------------------------------------------------|-----------------------------------------------------------------------|
+| Create             | let obj = {}, obj2 = new Object, obj3 = Object.create({name: 'flora'}), obj4 = {name:'flora'} | let map = new Map(), map2 = new Map([['name', 'Flora'], ['age', 25]]) |
+| Key Types          | Strings and Symbols                                                                           | Any Values(Object, functions, primitive values)                       |
+| Order of Keys      | No guaranteed order                                                                           | Maintains the order of keys based on insertion                        |
+| Size               | NO buil-in Methods to get the size                                                            | map.size                                                              |
+| Performance        | faster for lookups when using string keys                                                     | More efficient for frequent additions and removals                    |
+| Add                | obj[key] = value                                                                              | map.set(key, value)                                                   |
+| Access             | obj[key]                                                                                      | map.get(key)                                                          |
+| Delete             | delete obj[key]                                                                               | map.delete(key)                                                       |
+| Checking existence | key in obj or obj.hasOwnProperty(key)                                                         | map.has(key)                                                          |
+| Clone              | Object.assign() or ...                                                                        | new Map(existingMap)                                                  |
+| Memory Usage       | Generally uses less memory for small sets                                                     | More memory-efficient for larger set                                  |
+
+In JS, there is no built-in "HashTable" class, but JS object{} and the Map class often similar functionality to a HashTable
+HashTable:
+2 key features:  one-way, deterministic
+collisions: seperate chain ; linear probing(open addressing)
+
 
 ## 5. Binary Tree
 ### 1. Binary Search Tree (left node is always smaller than the root, while the right node is always larger than root)
