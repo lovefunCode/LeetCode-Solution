@@ -1,6 +1,7 @@
 Sorting Algorithms
 ## 1. Bubble Sort
 Bubble Sort Repeatedly steps through the array, comparing adjacent items, if 2 items are in the worong order, they are swapped. This process repeats, moving the largest unsorted item to the end with each pass, until the entire array is sorted.
+### Steps
     1. start at the beginning of the array
     2. compare each pair of adjacent items
     3. swap the items if they are in the wrong order
@@ -8,6 +9,7 @@ Bubble Sort Repeatedly steps through the array, comparing adjacent items, if 2 i
 
 ## 2. Selecion Sort
 Selection Sort sorts an array by repeatedly finding the minimum element from the unordered position and moving it to the beginning
+### Steps
     1. start with the first item as the current minimum
     2. compare the current minimum with the rest of the array to find the smallest item
     3. if a smaller item is found, update the current minimum
