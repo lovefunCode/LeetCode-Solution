@@ -16,4 +16,6 @@ const longestCommonSubsequence = function(text1, text2){
 }
 
 let text1 = "abcde", text2 = "ace" 
-console.log(longestCommonSubsequence(text1, text2))
+// console.log(longestCommonSubsequence(text1, text2))
+
+
