@@ -43,4 +43,4 @@ function itemInCommon4(arr1, arr2){
 
 const arr1 = [1, 3, 5]
 const arr2 = [2, 4, 5]
-console.log(itemInCommon3(arr1, arr2))
+console.log(itemInCommon4(arr1, arr2))

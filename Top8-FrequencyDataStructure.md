@@ -9,6 +9,16 @@
     arr.shift()
     console.log(arr)   // [1,2,3,4,5]
 ```
+| Features | Array                                      | Set                          |
+|----------|--------------------------------------------|------------------------------|
+| Create   | let arr = [], arr2 = new Array()           | let set = new Set()          |
+| value    | Any Types(primitives, object, duplicates ) | Unique values only, any type |
+| Access   | arr[index]                                 | set.has(val)                 |
+| Add      | arr.push(value)                            | set.add(val)                 |
+| Update   | arr[index] = newValue                      | set.delete(value); set.add(newValue)               |
+| Delete   | arr.splice(index, 1)                       | set.delete(val)              |
+| Size     | arr.length                                 | set.size                     |
+| Looping     | for, ForEach, for...of, for...in, map,etc                              | forEach, for...of  you cannot access elements by index                   |
 
 ## 2. Queue(First-In-First-Out),  Stack(First-In-Last-Out)
 ![alt text](./image/queue.png)
@@ -56,6 +66,7 @@ In JavsScript, 2 solutions to create HashMap data structure
 | Performance        | faster for lookups when using string keys                                                     | More efficient for frequent additions and removals                    |
 | Add                | obj[key] = value                                                                              | map.set(key, value)                                                   |
 | Access             | obj[key]                                                                                      | map.get(key)                                                          |
+| Loop             | for...in, Object.keys(), Object.values(), Object.entries()                                                                                     | forEach(), for...of, map.keys(), map.values(), map.entires()                                                          |
 | Delete             | delete obj[key]                                                                               | map.delete(key)                                                       |
 | Checking existence | key in obj or obj.hasOwnProperty(key)                                                         | map.has(key)                                                          |
 | Clone              | Object.assign() or ...                                                                        | new Map(existingMap)                                                  |
