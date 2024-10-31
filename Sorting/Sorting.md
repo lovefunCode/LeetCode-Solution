@@ -16,6 +16,23 @@ Selection Sort sorts an array by repeatedly finding the minimum element from the
     4. swap the current minimum with the first unordered item
     5. move to the next position and repeat until the array is sorted
 
+## 3. Insertion Sort
+### Steps
+    1. Start with the first element, assumign it's already sorted
+    2. For each subsequent element, compare it with the elements in the sorted position(the element before it)
+    3  If find the subsequent element greater than the previous then insert the num to the correct position
+    4. Repeat until all the elements in the array are sorted
+
+## 4. Merge Sort
+merge sort use the divide-and-conquer approach to sort the array efficiently
+### steps
+1. Divide
+    #### 1. break the array in half
+    #### 2. base case: when arr.length is 1
+    #### 3. use merge to put array together
+2. Conquer(merge function) to combine the individual components back into a  sorted list
+
+
 | Algorithm       | Time Complexity (Best) | Time Complexity (Worst) | Space Complexity (Best) | Space Complexity (Worst) |
 |-----------------|------------------------|--------------------------|--------------------------|---------------------------|
 | Bubble Sort     | O(n)                   | O(n²)                    | O(1)                     | O(1)                      |
