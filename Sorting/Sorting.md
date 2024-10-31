@@ -25,7 +25,7 @@ Selection Sort sorts an array by repeatedly finding the minimum element from the
 
 ## 4. Merge Sort
 merge sort use the divide-and-conquer approach to sort the array efficiently
-### steps
+### Steps
 1. Divide
     #### 1. break the array in half
     #### 2. base case: when arr.length is 1
