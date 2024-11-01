@@ -30,8 +30,8 @@ Selection Sort sorts an array by repeatedly finding the minimum element from the
 
 ## 4. Merge Sort
 merge sort use the divide-and-conquer approach to sort the array efficiently <br>
+![alt text](../image/mergeSort.gif)  <br>
 ![alt text](../image/mergeSort.svg)
-![alt text](../image/mergeSort.gif)
 ### Steps
 1. Divide
     #### 1. break the array in half
@@ -48,6 +48,9 @@ Quick sort use the Divide-and-Conquer approach choose the pivot to sort the arra
 2. Conquer
    ### Left + Pivot + Right
 
+<br>
+<br>
+<br>
 | Algorithm       | Time Complexity (Best) | Time Complexity (Worst) | Space Complexity (Best) | Space Complexity (Worst) |
 |-----------------|------------------------|--------------------------|--------------------------|---------------------------|
 | Bubble Sort     | O(n)                   | O(n²)                    | O(1)                     | O(1)                      |
