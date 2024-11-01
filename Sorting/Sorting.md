@@ -48,9 +48,7 @@ Quick sort use the Divide-and-Conquer approach choose the pivot to sort the arra
 2. Conquer
    ### Left + Pivot + Right
 
-<br>
-<br>
-<br>
+
 | Algorithm       | Time Complexity (Best) | Time Complexity (Worst) | Space Complexity (Best) | Space Complexity (Worst) |
 |-----------------|------------------------|--------------------------|--------------------------|---------------------------|
 | Bubble Sort     | O(n)                   | O(n²)                    | O(1)                     | O(1)                      |
