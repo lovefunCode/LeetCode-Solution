@@ -1,6 +1,6 @@
 # Sorting Algorithms
 ## 1. Bubble Sort
-Bubble Sort Repeatedly steps through the array, comparing adjacent items, if 2 items are in the worong order, they are swapped. This process repeats, moving the largest unsorted item to the end with each pass, until the entire array is sorted.
+Bubble Sort Repeatedly steps through the array, comparing adjacent items, if 2 items are in the worong order, they are swapped. This process repeats, moving the largest unsorted item to the end with each pass, until the entire array is sorted. <br>
 ![Description of GIF](../image/bubbleSort.gif)
 ### Steps
     1. start at the beginning of the array
@@ -9,9 +9,9 @@ Bubble Sort Repeatedly steps through the array, comparing adjacent items, if 2 i
     4. continue this process until no swaps are needed
 
 ## 2. Selecion Sort
-Selection Sort sorts an array by repeatedly finding the minimum element from the unordered position and moving it to the beginning
-![alt text](../image/insertionSort.gif)
-![alt text](../image/insertionSort2.gif)
+Selection Sort sorts an array by repeatedly finding the minimum element from the unordered position and moving it to the beginning <br>
+![alt text](../image/selectionSort.gif)
+![alt text](../image/selectionSort2.gif)
 ### Steps
     1. start with the first item as the current minimum
     2. compare the current minimum with the rest of the array to find the smallest item
@@ -29,9 +29,9 @@ Selection Sort sorts an array by repeatedly finding the minimum element from the
     4. Repeat until all the elements in the array are sorted
 
 ## 4. Merge Sort
+merge sort use the divide-and-conquer approach to sort the array efficiently <br>
 ![alt text](../image/mergeSort.svg)
 ![alt text](../image/mergeSort.gif)
-merge sort use the divide-and-conquer approach to sort the array efficiently
 ### Steps
 1. Divide
     #### 1. break the array in half
@@ -40,8 +40,8 @@ merge sort use the divide-and-conquer approach to sort the array efficiently
 2. Conquer(merge function) to combine the individual components back into a  sorted list
 
 ## 5.Quick Sort
+Quick sort use the Divide-and-Conquer approach choose the pivot to sort the array effectivly <br>
 ![alt text](../image/quickSort.gif)
-Quick sort use the Divide-and-Conquer approach choose the pivot to sort the array effectivly
 ### Steps
 1. Divide
     ### Choose the privot to split the arry into 2 parts
