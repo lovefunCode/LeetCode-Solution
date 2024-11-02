@@ -57,3 +57,11 @@ Quick sort use the Divide-and-Conquer approach choose the pivot to sort the arra
 | Merge Sort      | O(n log n)             | O(n log n)               | O(n)                     | O(n)                      |
 | Quick Sort      | O(n log n)             | O(n²)                    | O(log n)                 | O(n)                      |
 
+You also can check all the  Array Sorting Algorithms comparison table below
+![alt text](../image/arraySortingAlgorithms.png)
+
+You also can check all the  Big-O Complexity Chart Below
+![alt text](../image/BigO-All.png)
+
+You also can check the Simplistic Big-O Complexity Chart Below
+![alt text](../image/BigO.png)

@@ -1,10 +1,18 @@
 # Top 8 Data Structure Frequently Used
 ## 1. Array
+array is a placed subsequentially in memory, with each element directly following the previous one.
+![alt text](./image/array2.png)
+### features
+    1. Efficient Access
+    2. Cache-Friendly
+    3. Fixed Size
 ![alt text](./image/array.png)
  ```js
     const arr = [1,2,3,4,5]
+    // push and pop Time Complexity O(1)
     arr.push(6)
     arr.pop()
+    // unshift, shift Time Complexity O(n)
     arr.unshift(-1)
     arr.shift()
     console.log(arr)   // [1,2,3,4,5]
@@ -27,6 +35,10 @@
 You can find the function definition in [`validParentheses.js`](./validParentheses.js).
 
 ## 3. Linked List
+Unlike arrays, Linked List known as nodes
+Linked List is a random placement in memory.
+![alt text](./image/linkedList2.png)
+![alt text](./image/linkedList3.png)
 ![alt text](./image/linkedList.png)
 ## 4. HashMap(Key-Value Pairs, in JavaScript can use Object/Map)
 ![alt text](./image/hashMap.png)
@@ -107,3 +119,7 @@ You can find the function definition in [`BreadthFirstSearch.js`](./BreadthFirst
 
 graph has 2 different solutions to represent
 You can find the BFS(Breadth-First-Search graph) function definition in [`bfsGraph.js`](./bfsGraph.js).
+
+##  9. Wrap-Up
+You also can check all the Common Data Structure Operations  table below
+![alt text](./image/commonDSOperations.png)
