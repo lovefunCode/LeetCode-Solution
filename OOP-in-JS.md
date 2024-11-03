@@ -1,16 +1,16 @@
 # OOP(Object-Oriented Programming) in JS(JavaScript)
-## Key Concept of OOP:
-    1. Classes and Objects: A class is a blueprint for creating Objects. An object is an instance of a class, containging properties(attributes) and methods(functions). 
+## ** Key Concept of OOP:
+### 1. Classes and Objects: A class is a blueprint for creating Objects. An object is an instance of a class, containging properties(attributes) and methods(functions). 
 
-    2. Abstraction: Simplifying complex systems by modelling classes apporpiate to the problem, exposing only the necessary details. Aligning with Interface Segregation Principle(ISP)
+### 2. Abstraction: Simplifying complex systems by modelling classes apporpiate to the problem, exposing only the necessary details. Aligning with Interface Segregation Principle(ISP)
 
-    3. Encapsulation: Aligning with Single Responsibility Principle(SRP)
+### 3. Encapsulation: Aligning with Single Responsibility Principle(SRP)
 
-    4. Inherience: A mechanism where one class can extend another, allowing it to inherit properties and methods, promoting code reusability. Aligning with Liskov Substitution Principle(LSP)
+### 4. Inherience: A mechanism where one class can extend another, allowing it to inherit properties and methods, promoting code reusability. Aligning with Liskov Substitution Principle(LSP)
 
-    5. Polymorphism: The ability of different objects to be treated as instances of the same class through a shared interface, often implemented via method overriding. Align with Open/Closed Principle(OCP)
+### 5. Polymorphism: The ability of different objects to be treated as instances of the same class through a shared interface, often implemented via method overriding. Align with Open/Closed Principle(OCP)
 
-## OOP(Object-Oriented Programming) in JavaScript
+## ** OOP(Object-Oriented Programming) in JavaScript
 ## 1. Abstraction：
 JS uses functions and classes to create abstractions. The idea is to design classes or objects with methods that hide the internal workings and show only what is essential.
 ### 1. ES5(traditional OOP with Prototypes)
