@@ -36,6 +36,6 @@ const generatePascalTriangleWithRecursion = (numRows)=>{
     return preRow
 } 
 
-console.log(generatePascalTriangle(6))
-console.log(generatePascalTriangleWithRecursion(6))
+// console.log(generatePascalTriangle(6))
+// console.log(generatePascalTriangleWithRecursion(6))
 
