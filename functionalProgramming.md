@@ -130,7 +130,7 @@ You can find the more in [`functionComposition.js`](./functionComposition.js).
 ```
 Immutability: by not changing the originalArr, maintain the state, making the code more predictable, easier to debug and reducing side effects.
 
-# To Wrap-up Functional Programming Benefits:  </br>
+# To Wrap-Up Functional Programming Benefits:  </br>
     1. Predictable and Testable Code: Pure function and immutabiity help reduce unexpected bugs
     2. Reusability: FP emphasizes breaking problems into smaller functions, which can be reused across the codebase
     3. Parallel Execution: Pure function have no shared data, making them suitable for concurrent processing

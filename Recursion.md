@@ -21,6 +21,8 @@ Recurrence Relation: n * factorial(n-1)
 
 You can find the recursion use case in [`fibonacci.js`](./fibonacci.js).
 
+You can find the recursion use case in [`pascalTriangle.js`](./pascalTriangle.js).
+
 You can find the recursion use case in [`objDiff.js`](./objDiff.js).
 
 You can find the recursion use case in [`validateBinarySearchTree.js`](./validateBinarySearchTree.js).
