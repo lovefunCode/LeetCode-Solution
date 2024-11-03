@@ -19,12 +19,14 @@ const generatePascalTriangle = (numRows)=>{
     return res
 }
 
-// Recursion : break large problem into smaller problems 
+// Recursion : break large problem into smaller problems. 
+// In pascal's triangle problem, recursion helps to build each row based on the previous one,
+//  using the properties of the triangle itself 
 const generatePascalTriangleWithRecursion = (numRows)=>{
     // Base Case
     if(numRows == 1) return [[1]]
     if(numRows == 2) return [[1], [1, 1]]
-    //Recurrence relation
+    //Recurrence relation  || recursive case
     let preRow = generatePascalTriangleWithRecursion(numRows-1)
     let nowRow = new Array(numRows).fill(1)
     for(let i = 1; i < numRows - 1; i++){
