@@ -43,7 +43,7 @@ merge sort use the divide-and-conquer approach to sort the array efficiently <br
     #### 3. use merge to put array together
 2. Conquer(merge function) to combine the individual components back into a  sorted list </br>
 </br>
-You can find the more in [`mergeSort.js`](./mergeSort.js).
+You can find the mergeSort in [`mergeSort.js`](./mergeSort.js).
 
 ## 5.Quick Sort
 Quick sort use the Divide-and-Conquer approach choose the pivot to sort the array effectivly <br>
