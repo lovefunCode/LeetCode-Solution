@@ -7,6 +7,7 @@ Bubble Sort Repeatedly steps through the array, comparing adjacent items, if 2 i
     2. compare each pair of adjacent items
     3. swap the items if they are in the wrong order
     4. continue this process until no swaps are needed
+You can find the more in [`bubbleSort.js`](./bubbleSort.js).
 
 ## 2. Selecion Sort
 Selection Sort sorts an array by repeatedly finding the minimum element from the unordered position and moving it to the beginning <br>
@@ -19,6 +20,8 @@ Selection Sort sorts an array by repeatedly finding the minimum element from the
     4. swap the current minimum with the first unordered item
     5. move to the next position and repeat until the array is sorted
 
+You can find the more in [`selectionSort.js`](./selectionSort.js).
+
 ## 3. Insertion Sort
 ![alt text](../image/insertionSort.gif)
 ![alt text](../image/insertionSort2.gif)
@@ -27,6 +30,7 @@ Selection Sort sorts an array by repeatedly finding the minimum element from the
     2. For each subsequent element, compare it with the elements in the sorted position(the element before it)
     3  If find the subsequent element greater than the previous then insert the num to the correct position
     4. Repeat until all the elements in the array are sorted
+You can find the more in [`insertionSort.js`](./insertionSort.js).
 
 ## 4. Merge Sort
 merge sort use the divide-and-conquer approach to sort the array efficiently <br>
@@ -37,7 +41,9 @@ merge sort use the divide-and-conquer approach to sort the array efficiently <br
     #### 1. break the array in half
     #### 2. base case: when arr.length is 1
     #### 3. use merge to put array together
-2. Conquer(merge function) to combine the individual components back into a  sorted list
+2. Conquer(merge function) to combine the individual components back into a  sorted list </br>
+</br>
+You can find the more in [`mergeSort.js`](./mergeSort.js).
 
 ## 5.Quick Sort
 Quick sort use the Divide-and-Conquer approach choose the pivot to sort the array effectivly <br>
@@ -47,6 +53,7 @@ Quick sort use the Divide-and-Conquer approach choose the pivot to sort the arra
     ### Choose the privot to split the arry into 2 parts
 2. Conquer
    ### Left + Pivot + Right
+You can find the more in [`QuickSort.js`](./quickSort.js).
 
 ## 6. Summary Table
 | Algorithm       | Time Complexity (Best) | Time Complexity (Worst) | Space Complexity (Best) | Space Complexity (Worst) |

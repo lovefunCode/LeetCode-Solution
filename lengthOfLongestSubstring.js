@@ -7,6 +7,7 @@ const lengthOfLongestSubstring = function(s){
     let longestSub = 1;
     for(let i = 0; i < s.length; i++){
         let j = i+1;
+        if(s[i] = s[i-1]) continue
         set.add(s[i])
         while(j < s.length){
             if(!set.has(s[j])){
@@ -40,4 +41,4 @@ const lengthOfLongestSubstring2 = function(s){
 }
 
 let s = "pwwkew"
-console.log(lengthOfLongestSubstring2(s))
+console.log(lengthOfLongestSubstring(s))
