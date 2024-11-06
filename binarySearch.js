@@ -19,3 +19,19 @@ const binarySearch = function(nums, target){
 }
 const nums = [-1,0,3,5,9,12], target = 9
 console.log(binarySearch(nums, target))
+
+//calculate the average 
+// 1. One issue is accumulator value is over stackflow
+function calcalateAverage(nums){
+    const sum = nums.reduce((accumulator, cur)=> {return accumulator + cur} , 0)
+    return (sum/nums.length).toFixed(2)
+}
+
+console.log(calcalateAverage(nums))
+
+// 2
+function calcalateAverage2(nums){
+    const sum = nums.reduce((accumulator, cur)=> accumulator + (cur-nums[0]), 0)
+    return (sum/nums.length + nums[0]).toFixed(2)
+}
+console.log(calcalateAverage2([-1,12,3,5,9,0]))
