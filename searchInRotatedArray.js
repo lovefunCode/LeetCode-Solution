@@ -1,5 +1,5 @@
 
-const searchInRotatedAttay = function(nums, target){
+const searchInRotatedArray = function(nums, target){
     let left = 0;
     let right = nums.length;
     while(left <= right){
@@ -23,4 +23,4 @@ const searchInRotatedAttay = function(nums, target){
 }
 
 const nums = [4,5,6,7,0,1,2], target = 0
-console.log(searchInRotatedAttay(nums, target))
+console.log(searchInRotatedArray(nums, target))
