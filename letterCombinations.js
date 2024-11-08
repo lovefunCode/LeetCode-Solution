@@ -1,3 +1,5 @@
+// Time Complexity: O(n * 4^n)
+
 const letterCombinations = (digits, index=0)=>{
    const map = {
         2: ['a', 'b', 'c'],
