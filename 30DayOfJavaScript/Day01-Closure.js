@@ -7,7 +7,7 @@ const closure = function(){
 const fun = closure()
 fun('1', '2', '3') // 'hello, world'---1,2,3
 
-// Further Version
+// Upgrade Version  
 const closure2 = function(fn){
     return function(...args){
         return fn(...args)
@@ -20,7 +20,7 @@ function twoSum(a, b){
 }
 console.log(fun2(1, 2))    //3
 
-// Upgrade Version
+// Further Version
 const closure3 = function(fn){
     let cache = {}
     let count = 0
