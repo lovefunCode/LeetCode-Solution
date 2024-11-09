@@ -76,7 +76,7 @@ You can find the code solution in [`searchInRotatedArray.js`](./searchInRotatedA
 3. LeetCode 374. Guess Number Higher or Lower https://leetcode.com/problems/guess-number-higher-or-lower/description/  </br>
 4. LeetCode 295 Find Median From Data Stream https://leetcode.com/problems/find-median-from-data-stream/description/  </br>
 You can find the code solution in [`findMedianFromDataStream.js`](./findMedianFromDataStream.js)
-5. LeetCode 153 Find Minimum In Rotated Sorted Array https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/description/
+5. LeetCode 153 Find Minimum In Rotated Sorted Array https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/description/ </br>
 You can find the code solution in [`findMinInRotatedArray.js`](./findMinInRotatedArray.js)
 
 
@@ -124,7 +124,7 @@ Backtracking is a general algorithmic technique in a lot of languages used to so
     3. Data Structures: Using appropriate data structures like arrays, sets and maps can help manage visited nodes, choices, or constraints efficiently.
 
 LeetCode Problems:
-1. LeetCode 17. Letter Combinations of a Phone Number https://leetcode.com/problems/letter-combinations-of-a-phone-number/description/?envType=problem-list-v2&envId=hash-table
+1. LeetCode 17. Letter Combinations of a Phone Number https://leetcode.com/problems/letter-combinations-of-a-phone-number/description/?envType=problem-list-v2&envId=hash-table </br>
 You also can find code solution in [`letterCombinations.js`](./letterCombinations.js).
 
 # 7. Dynamic Programming

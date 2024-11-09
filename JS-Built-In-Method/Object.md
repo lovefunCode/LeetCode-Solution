@@ -95,10 +95,16 @@ Object is a built-in global object that provides several methods for working wit
             this.c = c;
         }
         getImmutableCopy(){
+           // create a new obj has the same prototype as the current instance this
+            // This ensures that immutableCopy will inherit methods from myClass, 
+            //  but it doesn't yet contain the properties of this(such as a, b, and c)
             const immutableCopy = Object.create(Object.getPrototypeOf(this))
+            console.log(immutableCopy)
+            // Copy Properties to immutableCopy
             Object.assign(immutableCopy, this)
+            // Freeze the object to make it immutable
             Object.freeze(immutableCopy)
-            return immutableCopy
+            // return immutableCopy
         }
         isMutable(){
             return !Object.isFrozen(this)
@@ -109,5 +115,9 @@ Object is a built-in global object that provides several methods for working wit
     console.log(objTest.isMutable())   // true
     let immutableObj = objTest.getImmutableCopy();
     console.log(immutableObj.isMutable())   //false
+
 ```
+###  Note: Why is Object.assign() needed?
+1. Without Object.assign(immutableCopy, this), immutableCopy would not have any of the properties(a, b, c) that are part of the original object this.
+2. Object.create() only sets up the prototype chain; it doesn't copy any properties from the original object.
 
