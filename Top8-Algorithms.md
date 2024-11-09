@@ -11,7 +11,11 @@ You also can find the code in [`twoSum.js`](./twoSum.js).
 2. LeetCode 12. Integer to Roman https://leetcode.com/problems/integer-to-roman/description/?envType=problem-list-v2&envId=hash-table
 You also can find the romanToInt use case in [`romanToInt.js`](./romanToInt.js).
 3. LeetCode 17. Letter Combinations of a Phone Number https://leetcode.com/problems/letter-combinations-of-a-phone-number/description/?envType=problem-list-v2&envId=hash-table </br>
-You also can find the code in [`letterCombinations.js`](./letterCombinations.js).
+You also can find the code in [`letterCombinations.js`](./letterCombinations.js). </br>
+Undone 
+
+4. LeetCode 36. Valid Sudoku https://leetcode.com/problems/valid-sudoku/description/?envType=problem-list-v2&envId=hash-table </br>
+You also can find the code in [`validSudoku.js`](./validSudoku.js).
 
 # 2. Recursion
 ## Key Features
@@ -107,7 +111,7 @@ You can find the code solution in [`lengthOfLongestSubstring.js`](./lengthOfLong
 Note: Binary Search also use two-pointers technique
 
 
-# 6  Backtracking
+# 6.  Backtracking
 Backtracking is a general algorithmic technique in a lot of languages used to solve problems incrementally by building a solution piece-by-piece and removing(backtracking) solutions that fail to meet the problem constrains. This technique is especially helpful for problems involving combinations, permutations, and other situations where multiple possibilities must be explored.
 ## Key Concepts of backtracking
     1. Exploration of all possibilities.
@@ -124,4 +128,11 @@ LeetCode Problems:
 You also can find code solution in [`letterCombinations.js`](./letterCombinations.js).
 
 # 7. Dynamic Programming
+LeetCode Problems:
+1. LeetCode 121. Best Time to Buy and Sell Stock
+https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/ </br>
+you can find the explanation in
+ ![alt text](./image/DP-BestTimeSellStock.png)
+You can find the code solution in [`bestTimeToSellStock.js`](./bestTimeToSellStock.js)
+
 # 8. Greedy
