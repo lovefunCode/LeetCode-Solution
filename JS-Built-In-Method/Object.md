@@ -120,4 +120,8 @@ Object is a built-in global object that provides several methods for working wit
 ###  Note: Why is Object.assign() needed?
 1. Without Object.assign(immutableCopy, this), immutableCopy would not have any of the properties(a, b, c) that are part of the original object this.
 2. Object.create() only sets up the prototype chain; it doesn't copy any properties from the original object.
+![alt text](createObject.png)
+From the picture, We can easily see   const immutableCopy = Object.create(Object.getPrototypeOf(this)) immutableCopy inherit methods from MyClass, only set up the prototype chain.
+So it needs Object.assign(immutableCopy, this), otherwise it cannot have any of the properties(a, b, c)
+
 
