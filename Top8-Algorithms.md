@@ -126,6 +126,12 @@ Backtracking is a general algorithmic technique in a lot of languages used to so
 LeetCode Problems:
 1. LeetCode 17. Letter Combinations of a Phone Number https://leetcode.com/problems/letter-combinations-of-a-phone-number/description/?envType=problem-list-v2&envId=hash-table </br>
 You also can find code solution in [`letterCombinations.js`](./letterCombinations.js).
+![alt text](./image/subsets.png)
+2. LeetCode 78. Subsets https://leetcode.com/problems/subsets/description/ </br>
+You also can find code solution in [`subset.js`](./subsets.js).
+
+3. LeetCode 77. Combinations https://leetcode.com/problems/combinations/description/ </br>
+You also can find code solution in [`combinations.js`](./combinations.js).
 
 # 7. Dynamic Programming
 LeetCode Problems:
