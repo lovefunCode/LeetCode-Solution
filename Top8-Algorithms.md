@@ -2,13 +2,11 @@
 
 You also can find the HashMaps details in #4HashMap [`Top8-FrequencyDataStructure.md`](./Top8-FrequencyDataStructure.md).</br>
 
-You also can find the code in [`twoSum.js`](./twoSum.js).
-
 LeetCode Problems:
 1. LeetCode 1. Two Sum https://leetcode.com/problems/two-sum/description/ </br>
 You also can find the code in [`twoSum.js`](./twoSum.js).
 
-2. LeetCode 12. Integer to Roman https://leetcode.com/problems/integer-to-roman/description/?envType=problem-list-v2&envId=hash-table
+2. LeetCode 12. Integer to Roman https://leetcode.com/problems/integer-to-roman/description/?envType=problem-list-v2&envId=hash-table </br>
 You also can find the romanToInt use case in [`romanToInt.js`](./romanToInt.js).
 3. LeetCode 17. Letter Combinations of a Phone Number https://leetcode.com/problems/letter-combinations-of-a-phone-number/description/?envType=problem-list-v2&envId=hash-table </br>
 You also can find the code in [`letterCombinations.js`](./letterCombinations.js). </br>
