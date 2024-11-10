@@ -75,6 +75,12 @@ Object is a built-in global object that provides several methods for working wit
 ```js
     const obj3 = { name: "Alice", age: 30 };
     console.log(Object.entries(obj3))   // [ [ 'name', 'Alice' ], [ 'age', 30 ] ]
+
+    let map = Object.assign({}, obj3)
+    for(let [key, value] of Object.entries(map)){
+        console.log(key, value)  // name, Alice    
+                                 // age, 30
+    }
 ```
 
 ## Object.prototypeOf()
