@@ -12,10 +12,12 @@ You also can find the code in [`twoSum.js`](./twoSum.js).
 You also can find the romanToInt use case in [`romanToInt.js`](./romanToInt.js).
 3. LeetCode 17. Letter Combinations of a Phone Number https://leetcode.com/problems/letter-combinations-of-a-phone-number/description/?envType=problem-list-v2&envId=hash-table </br>
 You also can find the code in [`letterCombinations.js`](./letterCombinations.js). </br>
-Undone 
-
+ 
 4. LeetCode 36. Valid Sudoku https://leetcode.com/problems/valid-sudoku/description/?envType=problem-list-v2&envId=hash-table </br>
 You also can find the code in [`validSudoku.js`](./validSudoku.js).
+5. LeetCode 347. Top K Frequent Elements https://leetcode.com/problems/top-k-frequent-elements/  </br>
+You also can find the code in [`topKFrequent.js`](./topKFrequent.js).
+
 
 # 2. Recursion
 ## Key Features
