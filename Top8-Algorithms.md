@@ -120,7 +120,7 @@ Backtracking is a general algorithmic technique in a lot of languages used to so
     4. Constraints and Pruning
 ## Tips for Backtracking in JS
     1. Use Recursively carefully: Since Backtracking relies heavily on recursion, JS's call stack limit should be keep in mind.
-    2. Prnue Early: Adding checks early in the recursion to eliminate unpromising paths can significantly optimize performance
+    2. Prune Early: Adding checks early in the recursion to eliminate unpromising paths can significantly optimize performance
     3. Data Structures: Using appropriate data structures like arrays, sets and maps can help manage visited nodes, choices, or constraints efficiently.
 
 LeetCode Problems:
