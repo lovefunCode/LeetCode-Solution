@@ -92,6 +92,27 @@ Object is a built-in global object that provides several methods for working wit
 
 ```
 
+## Object.getOwnPropertyNames(object1)
+
+```js
+    const obj5 = {
+         a: 1,
+         b: 2,
+         c: 3,
+    }
+    console.log(Object.getOwnPropertyNames(obj5))   // Array ["a", "b", "c"]
+
+```
+## Object.fromEntries()
+Converts an array of [key, value] pairs into an object,
+the inverse of Object.entries()
+```js
+    const entries = [["name", "Alice"], ["age", 25]];
+    console.log(Object.fromEntries(entries))   // { name: "Alice", age: 25 }
+
+```
+
+
 ## Real Use Case
 ```js
     class MyClass{
