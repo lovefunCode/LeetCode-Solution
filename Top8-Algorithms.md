@@ -16,6 +16,8 @@ You also can find the code in [`validSudoku.js`](./validSudoku.js).
 5. LeetCode 347. Top K Frequent Elements https://leetcode.com/problems/top-k-frequent-elements/  </br>
 You also can find the code in [`topKFrequent.js`](./topKFrequent.js).
 
+6. LeetCode 146. LRU cache https://leetcode.com/problems/lru-cache/description/?envType=problem-list-v2&envId=hash-table </br>
+You also can find the code in [`LeastRencentlyUsedCache.js`](./LeastRencentlyUsedCache.js).
 
 # 2. Recursion
 ## Key Features

@@ -9,18 +9,22 @@ const topKFrequent = function(nums, k){
         }
     }
     // console.log('map---', map)
+    // method 1
     // for(let [key, value] of Object.entries(map)){
     //     console.log(key, value)
     //     if(key >= k){
     //         result.push(value)
     //     }
     // }
+
+    // method 2
     Object.keys(map).map(item=>{
         console.log(item)
         if(item >= k){
             result.push(map[item])
         }
     })
+
     return result
 }
 
