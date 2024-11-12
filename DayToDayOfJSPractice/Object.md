@@ -103,6 +103,16 @@ Object is a built-in global object that provides several methods for working wit
     console.log(Object.getOwnPropertyNames(obj5))   // Array ["a", "b", "c"]
 
 ```
+## Object.defineProperty
+Object.defineProperty(obj, propertyName, descriptor)
+```js
+    const person = {}
+    Object.defineProperty(person, 'name', {
+        
+    })
+```
+
+
 ## Object.fromEntries()
 Converts an array of [key, value] pairs into an object,
 the inverse of Object.entries()
