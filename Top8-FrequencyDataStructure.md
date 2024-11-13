@@ -93,12 +93,22 @@ collisions: seperate chain ; linear probing(open addressing)
 ## 5. Binary Tree
 ### 1. Binary Search Tree (left node is always smaller than the root, while the right node is always larger than root)
 ![alt text](./image/binaryTree.png)
-
+![alt text](./image/BST.gif)
 1. First create a tree 
-[`binarySearchTree.js`](./binarySearchTree.js).
+[`BST-Create.js`](./BST-Create.js).
 
-2. Insert BST
+2. Insert BST </br>
+![alt text](./image/BST-Insertion.gif) </br>
 [`BST-Insert.js`](./BST-Insert.js).
+
+3. Contains node
+[`BST-Contains.js`](./BST-Contains.js).
+
+4. Find the minimum of the currentNode
+[`BST-Findmin.js`](./BST-Findmin.js).
+
+5. Find the maxmum of the currentNode
+[`BST-FindMax.js`](./BST-FindMax.js).
 
 ### Key Points for `isValidBST` Function
 - Uses recursion to validate each node.

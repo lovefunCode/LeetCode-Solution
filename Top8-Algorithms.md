@@ -53,7 +53,14 @@ You also can find the code in [`LeastRencentlyUsedCache.js`](./LeastRencentlyUse
 You also can find the recursion use case in [`pascalTriangle.js`](./pascalTriangle.js).
 
 For more you can check more about the Recursion [`Recursion.md`](./Recursion.md).
-# 3. DFS & BFS
+# 3. Two traversal solutions: BFS & DFS
+## 3.1 BFS(Breadth-First-Search)
+
+## 3.2 DFS(Depth-First-Search)
+### Pre-Order
+### In-Order
+### Post-Order
+
 # 4. Binary Search
 Binary Search is an efficient algorithm for finding an element's position in a ### Sorted Array ###
 ## Key Features
