@@ -34,6 +34,24 @@ const tree = bulidTree(root)
 console.log(bulidTree(root))
 
 
+function maxDepthBT(root){
+    // base case
+    if(root == null) return 0
+    let depth = 0;
+    let queue = [root]
+    while(queue.length){
+        for(let i = 0; i < queue.length; i++){
+            let curr = queue.shift();
+            if(curr.left) queue.push(curr.left)
+            if(curr.right) queue.push(curr.right)
+        }
+        depth++
+    }
+    return depth
+}
+console.log('----maxDepthBT-', maxDepthBT(tree))
+
+
 var maxDepth = function (root) {
     // //    1.   recursion: 
     // // Base case
