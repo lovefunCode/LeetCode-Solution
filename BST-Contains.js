@@ -49,23 +49,6 @@ class BST {
         }
         return false
     }
-
-    findMinimum(currNode) {
-        if (this.root == null) return -1
-        let temp = currNode
-        while (temp.left) {
-            temp = temp.left
-        }
-        return  temp.value
-    }
-    findMax(currNode) {
-        if (this.root == null) return -1
-        let temp = currNode
-        while (temp.right) {
-            temp = temp.right
-        }
-        return  temp.value
-    }
 }
 
 const myTree = new BST()
@@ -78,8 +61,7 @@ myTree.insert(52)
 myTree.insert(82)
 console.log(myTree)
 console.log(myTree.contains(76))
-console.log(myTree.findMinimum(myTree.root.right))
-console.log(myTree.findMax(myTree.root.left))
+
 
 
 
