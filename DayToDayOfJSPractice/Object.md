@@ -141,7 +141,7 @@ the inverse of Object.entries()
             Object.assign(immutableCopy, this)
             // Freeze the object to make it immutable
             Object.freeze(immutableCopy)
-            // return immutableCopy
+            return immutableCopy
         }
         isMutable(){
             return !Object.isFrozen(this)

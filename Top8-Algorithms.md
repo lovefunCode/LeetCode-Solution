@@ -53,12 +53,18 @@ You also can find the code in [`LeastRencentlyUsedCache.js`](./LeastRencentlyUse
 You also can find the recursion use case in [`pascalTriangle.js`](./pascalTriangle.js).
 
 For more you can check more about the Recursion [`Recursion.md`](./Recursion.md).
-# 3. Two traversal solutions: BFS & DFS
-## 3.1 BFS(Breadth-First-Search)
-You also can find the recursion use case in [`BST-BFS.js`](./BST-BFS.js).
+# 3. Two traversal solutions: DFS & BFS 
+![alt text](./image/BST-BFS.gif)
 
-## 3.2 DFS(Depth-First-Search)
+## 3.1 BFS(Breadth-First-Search) use Queue(FIFO) data structure
+![alt text](./image/BFS-PreOrder.gif)
+
+You also can find the Code in [`BST-BFS.js`](./BST-BFS.js).
+
+## 3.2 DFS(Depth-First-Search) use Stack(FILO) data structure
 ### Pre-Order
+![alt text](./image/BFS-PreOrder.gif)
+You also can find the Code in [`BST-DFS-PreOrder.js`](./BST-DFS-PreOrder.js).
 ### In-Order
 ### Post-Order
 

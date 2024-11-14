@@ -110,6 +110,9 @@ collisions: seperate chain ; linear probing(open addressing)
 5. Find the maxmum of the currentNode
 [`BST-FindMax.js`](./BST-FindMax.js).
 
+You can find the whole BST code in 
+[`BST-Whole.js`](./BST-Whole.js).
+
 ### Key Points for `isValidBST` Function
 - Uses recursion to validate each node.
 - Each node’s value should be within a specific range (`min` and `max` bounds).
