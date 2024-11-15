@@ -95,6 +95,7 @@ collisions: seperate chain ; linear probing(open addressing)
 ![alt text](./image/binaryTree.png)
 ![alt text](./image/BST.gif)
 1. First create a tree 
+![alt text](./image/binary-tree-creation-small.gif)
 [`BST-Create.js`](./BST-Create.js).
 
 2. Insert BST </br>

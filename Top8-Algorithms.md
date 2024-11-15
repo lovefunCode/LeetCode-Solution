@@ -54,19 +54,24 @@ You also can find the recursion use case in [`pascalTriangle.js`](./pascalTriang
 
 For more you can check more about the Recursion [`Recursion.md`](./Recursion.md).
 # 3. Two traversal solutions: DFS & BFS 
-![alt text](./image/BST-BFS.gif)
 
 ## 3.1 BFS(Breadth-First-Search) use Queue(FIFO) data structure
-![alt text](./image/BFS-PreOrder.gif)
+![alt text](./image/BST-BFS.gif)
+![alt text](./image/binary-tree-level-order-small.gif)
 
 You also can find the Code in [`BST-BFS.js`](./BST-BFS.js).
 
 ## 3.2 DFS(Depth-First-Search) use Stack(FILO) data structure
-### Pre-Order
+### Pre-Order(Root-Left-Right)
 ![alt text](./image/BFS-PreOrder.gif)
+![alt text](./image/binary-tree-pre-order.gif)
 You also can find the Code in [`BST-DFS-PreOrder.js`](./BST-DFS-PreOrder.js).
-### In-Order
-### Post-Order
+### Post-Order(Left-Right-Root)
+![alt text](./image/binary-tree-post-order.gif)
+You also can find the Code in [`BST-DFS-PostOrder.js`](./BST-DFS-PostOrder.js).
+### In-Order(Left-Root-Right)
+![alt text](./image/binary-tree-inorder.gif)
+You also can find the Code in [`BST-DFS-InOrder.js`](./BST-DFS-InOrder.js).
 
 # 4. Binary Search
 Binary Search is an efficient algorithm for finding an element's position in a ### Sorted Array ###
