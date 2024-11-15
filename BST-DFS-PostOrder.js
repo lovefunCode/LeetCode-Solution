@@ -39,6 +39,7 @@ class BST{
         }
         let result = []
         function traverse(currNode){
+            if(currNode === null) return
             if(currNode.left){
                 traverse(currNode.left)
             }

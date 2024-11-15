@@ -36,6 +36,7 @@ class Node{
     preOrderTraverse(){
         let result = []
         function traverse(currNode){
+            if(currNode === null) return
             if(currNode === null){
                 return;
             }
