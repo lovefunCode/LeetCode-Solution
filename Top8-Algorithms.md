@@ -61,6 +61,7 @@ For more you can check more about the Recursion [`Recursion.md`](./Recursion.md)
 
 You also can find the Code in [`BST-BFS.js`](./BST-BFS.js).
 
+You can check the frontend use case in [`BST-BFS-DomTraversel.js`](./BST-BFS-DomTraversel.js).
 ## 3.2 DFS(Depth-First-Search) use Stack(FILO) data structure
 ### Pre-Order(Root-Left-Right)
 ![alt text](./image/BFS-PreOrder.gif)
@@ -72,6 +73,8 @@ You also can find the Code in [`BST-DFS-PostOrder.js`](./BST-DFS-PostOrder.js).
 ### In-Order(Left-Root-Right)
 ![alt text](./image/binary-tree-inorder.gif)
 You also can find the Code in [`BST-DFS-InOrder.js`](./BST-DFS-InOrder.js).
+
+You can check the frontend use case in [`BST-DFS-RenderTree.js`](./BST-DFS-RenderTree.js).
 
 # 4. Binary Search
 Binary Search is an efficient algorithm for finding an element's position in a ### Sorted Array ###
