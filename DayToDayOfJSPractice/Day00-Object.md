@@ -111,7 +111,20 @@ Object.defineProperty(obj, propertyName, descriptor)
         
     })
 ```
+## delete object.property | delete object['property']
+```js
+    const person = {
+        name: 'John',
+        age: 30,
+        gender: 'Male'
+    };
+    delete person.age
+    console.log(person) //{ name: 'John', gender: 'Male' }
 
+    delete person['gender']
+    console.log(person)  //{ name: 'John' }
+
+```
 
 ## Object.fromEntries()
 Converts an array of [key, value] pairs into an object,
@@ -154,6 +167,8 @@ the inverse of Object.entries()
     console.log(immutableObj.isMutable())   //false
 
 ```
+
+
 ###  Note: Why is Object.assign() needed?
 1. Without Object.assign(immutableCopy, this), immutableCopy would not have any of the properties(a, b, c) that are part of the original object this.
 2. Object.create() only sets up the prototype chain; it doesn't copy any properties from the original object.
