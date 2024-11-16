@@ -1,4 +1,5 @@
 This is the Cheatsheet for DSA
+![alt text](./image/structures.png)
 ![alt text](./image/frame.png)
 # 1. HashMaps
 

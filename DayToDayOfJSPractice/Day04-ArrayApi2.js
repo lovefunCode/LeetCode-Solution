@@ -46,4 +46,11 @@ const copyArray2 = [...originalArray]
 console.log(copyArray2);       // [10, 20, 30]
 console.log(originalArray === copyArray2)  // false
 
+// join()
 
+let arrFruit =  ["apple", "banana", "cherry"];
+let result = arrFruit.join(',')
+console.log(result)  //apple,banana,cherry
+
+let result2 = arrFruit.join('|')
+console.log(result2)  // apple|banana|cherry
