@@ -80,7 +80,7 @@ LeetCode Problems:
 1. LeetCode 102. Binary Tree Level Order Traversal https://leetcode.com/problems/binary-tree-level-order-traversal/?envType=study-plan-v2&envId=top-100-liked  </br>
 You can find the code solution in [`BT-levelOrder.js`](./BT-levelOrder.js)
 2. LeetCode 547. Number of Provinces  https://leetcode.com/problems/number-of-provinces/description/ </br>
-You can find the code solution in [`binarySearch.js`](./binarySearch.js)
+You can find the code solution in [`Graph-findCircleNum.js`](./Graph-findCircleNum.js)
 
 # 4. Binary Search
 Binary Search is an efficient algorithm for finding an element's position in a ### Sorted Array ###
