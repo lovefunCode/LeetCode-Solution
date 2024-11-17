@@ -85,7 +85,10 @@ You can find the code solution in [`Graph-findCircleNum.js`](./Graph-findCircleN
 3. LeetCode 105. Construct Binary Tree From Preorder And Inorder Traversal  https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/description/?envType=study-plan-v2&envId=top-100-liked </br>
 You can find the code solution in [`BT-BuildTree-FromPreOrderAndInOrder.js`](./BT-BuildTree-FromPreOrderAndInOrder.js)
 4. LeetCode 108. Convert Sorted Array to Binary Search Tree https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/description/?envType=study-plan-v2&envId=top-100-liked </br>
-You can find the code solution in [`BST-SortedArrayToBST.js.js`](./BST-SortedArrayToBST.js)
+You can find the code solution in [`BST-SortedArrayToBST.js`](./BST-SortedArrayToBST.js)
+5. LeetCode 98. Valid Binary Search Tree https://leetcode.com/problems/validate-binary-search-tree/description/?envType=study-plan-v2&envId=top-100-liked </br>
+You can find the code solution in [`BST-ValidateBST.js`](./BST-ValidateBST.js)
+
 
 # 4. Binary Search
 Binary Search is an efficient algorithm for finding an element's position in a ### Sorted Array ###
