@@ -6,7 +6,7 @@ function TreeNode(val, left=null, right=null){
 const sortedArrayToBST = function(nums){
     function recurse(currNums){
         if(!currNums.length) return null
-        const midIndex = Math.floor((0 + currNums.length)/2)
+        const midIndex = Math.floor(currNums.length/2)
         let rootVal = currNums[midIndex]
         let root = new TreeNode(rootVal)
         root.left = recurse(currNums.slice(0, midIndex))
