@@ -14,11 +14,11 @@ function debounce(fun, delay){
 const debounce2 = (fn, delay)=>{
     let timerId = null;
     console.log(this);
-    return function(){
+    return function(args){
         let that = this;
         clearTimeout(timerId)
         timerId = setTimeout(()=>{
-            fn.apply(that, arguments)
+            fn.apply(that, args)
         }, delay)  
     }
 }
