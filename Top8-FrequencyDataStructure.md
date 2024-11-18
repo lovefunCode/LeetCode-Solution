@@ -1,13 +1,19 @@
 # Top 8 Data Structure Frequently Used
-## 0. Strings
+## 1.0. Strings
 
 LeetCode Problems:
 1. LeetCode 1382. Break a Palindrome https://leetcode.com/problems/break-a-palindrome/description/  </br>
 You can find the code solution in [`breakPalindrome.js`](./breakPalindrome.js)
 2. LeetCode 151. Reverse words in a string https://leetcode.com/problems/reverse-words-in-a-string/?envType=problem-list-v2&envId=string </br>
 You can find the code solution in [`reverseWords.js`](./reverseWords.js)
+3. LeetCode 28. Find the Index of the First Occurrence in a String
+https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/description/?envType=problem-list-v2&envId=string</br>
+You can find the code solution in [`firstOccurSubstring.js`](./firstOccurSubstring.js)
 
-## 1. Array
+4. LeetCode 3. Longest Substring Without Repeating Characters. https://leetcode.com/problems/longest-substring-without-repeating-characters/description/?envType=problem-list-v2&envId=string
+You can find the code solution in [`reverseWords.js`](./reverseWords.js)
+
+## 1.1. Array
 array is a placed subsequentially in memory, with each element directly following the previous one.
 ![alt text](./image/array2.png)
 ### features
