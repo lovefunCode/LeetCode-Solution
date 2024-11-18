@@ -1,4 +1,11 @@
 # Top 8 Data Structure Frequently Used
+## 0. Strings
+
+LeetCode Problems:
+1. LeetCode 1382. Break a Palindrome https://leetcode.com/problems/break-a-palindrome/description/  </br>
+You can find the code solution in [`breakPalindrome.js`](./breakPalindrome.js)
+
+
 ## 1. Array
 array is a placed subsequentially in memory, with each element directly following the previous one.
 ![alt text](./image/array2.png)
