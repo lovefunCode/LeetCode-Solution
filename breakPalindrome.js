@@ -26,6 +26,22 @@ function breakPalindrome2(palindrome){
     newStr = palindrome.substring(0, palindrome.length-1) + 'b'
     return newStr
 }
-console.log(breakPalindrome2('abccba'))
-console.log(breakPalindrome2('a'))
-console.log(breakPalindrome2('aaaa'))
+
+function breakPalindrome3(palindrome){
+    let newStr = ''
+    if(palindrome.length < 2) return newStr 
+    let mid = Math.floor(palindrome.length/2)
+    for(let i = 0; i < mid; i++){
+       if(palindrome[i] != 'a'){
+          newStr = palindrome.slice(0, i) + 'a' + palindrome.slice(i+1)
+          return newStr
+       }
+    }
+    newStr = palindrome.slice(0, palindrome.length-1) + 'b'
+    return newStr
+}
+
+
+console.log(breakPalindrome3('abccba'))
+console.log(breakPalindrome3('a'))
+console.log(breakPalindrome3('aaaa'))
