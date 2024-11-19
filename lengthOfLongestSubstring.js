@@ -37,8 +37,18 @@ const lengthOfLongestSubstring2 = function(s){
             left++
         }
     }
+    let str = [...set].join(',')
+    console.log(set, str)
     return longestSub
 }
 
 let s = "pwwkew"
-console.log(lengthOfLongestSubstring(s))
+console.log(lengthOfLongestSubstring2(s))
+
+// Convert set to string
+const set = new Set(['a', 'b', 'c']);
+console.log([...set].join(','))  //a,b,c
+console.log(Array.from(set).join(','))
+console.log(JSON.stringify([...set]))
+console.log([...set].map(x=>x.toUpperCase()).join(','))  //A,B,C
+

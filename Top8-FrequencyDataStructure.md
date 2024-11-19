@@ -8,10 +8,9 @@ You can find the code solution in [`breakPalindrome.js`](./breakPalindrome.js)
 You can find the code solution in [`reverseWords.js`](./reverseWords.js)
 3. LeetCode 28. Find the Index of the First Occurrence in a String
 https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/description/?envType=problem-list-v2&envId=string</br>
-You can find the code solution in [`firstOccurSubstring.js`](./firstOccurSubstring.js)
-
+You can find the code solution in [`firstOccurSubstring.js`](./firstOccurSubstring.js) </br>
 4. LeetCode 3. Longest Substring Without Repeating Characters. https://leetcode.com/problems/longest-substring-without-repeating-characters/description/?envType=problem-list-v2&envId=string
-You can find the code solution in [`reverseWords.js`](./reverseWords.js)
+You can find the code solution in [`lengthOfLongestSubstring.js`](./lengthOfLongestSubstring.js)
 
 ## 1.1. Array
 array is a placed subsequentially in memory, with each element directly following the previous one.
