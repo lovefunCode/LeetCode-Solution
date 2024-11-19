@@ -13,7 +13,8 @@ You can find the code solution in [`firstOccurSubstring.js`](./firstOccurSubstri
 You can find the code solution in [`lengthOfLongestSubstring.js`](./lengthOfLongestSubstring.js)
 5. LeetCode 14. Longest Common Prefix https://leetcode.com/problems/longest-common-prefix/description/?envType=problem-list-v2&envId=string </br>
 You can find the code solution in [`longestCommonPrefix.js`](./longestCommonPrefix.js)
-
+6. LeetCode 17. Letter Combinations of a phone number https://leetcode.com/problems/letter-combinations-of-a-phone-number/?envType=problem-list-v2&envId=string </br>
+You can find the code solution in [`letterCombinations.js`](./letterCombinations.js)
 
 ## 1.1. Array
 array is a placed subsequentially in memory, with each element directly following the previous one.

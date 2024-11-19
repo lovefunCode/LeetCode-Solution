@@ -13,7 +13,7 @@ const letterCombinations = (digits, index=0)=>{
    } 
    let res = []
    function backtrack(i, curStr){
-        if(i > digits.length) return ['']
+        if(i > digits.length || !digits.length) return []
         if(curStr.length == digits.length){
             res.push(curStr)
             return 
