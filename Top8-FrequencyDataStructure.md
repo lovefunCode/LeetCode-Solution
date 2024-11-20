@@ -61,6 +61,9 @@ Linked List is a random placement in memory.
 You can find the Code in [`LL-Create.js`](./LL-Create.js). </br>
 You can find the Code in [`LL-Push.js`](./LL-Push.js).</br>
 You can find the Code in [`LL-Pop.js`](./LL-Pop.js).</br>
+You can find the Code in [`LL-Unshift.js`](./LL-Unshift.js).</br>
+You can find the Code in [`LL-Shift.js`](./LL-Shift.js).</br>
+
 
 ## 4. HashMap(Key-Value Pairs, in JavaScript can use Object/Map)
 ![alt text](./image/hashMap.png)
@@ -110,6 +113,12 @@ In JS, there is no built-in "HashTable" class, but JS object{} and the Map class
 HashTable:
 2 key features:  one-way, deterministic
 collisions: seperate chain ; linear probing(open addressing)
+
+LeetCode Problems:
+1. LeetCode 2622. Cache With Time Limit https://leetcode.com/problems/cache-with-time-limit/?envType=study-plan-v2&envId=30-days-of-javascript </br>
+you can find the Code in [`Map-TimeLimitedCache.js`](./Map-TimeLimitedCache.js).
+2. LeetCode 146 LRU Cache https://leetcode.com/problems/lru-cache/description/?envType=problem-list-v2&envId=hash-table </br>
+you can find the Code in [`Map-LRUCache.js`](./Map-LRUCache.js).
 
 
 ## 5. Binary Tree
@@ -161,6 +170,10 @@ You can find the function definition in [`BreadthFirstSearch.js`](./BreadthFirst
 
 graph has 2 different solutions to represent
 You can find the BFS(Breadth-First-Search graph) function definition in [`bfsGraph.js`](./bfsGraph.js).
+
+LeetCode problems:
+1. Leetcode 547. Number of Provinces https://leetcode.com/problems/number-of-provinces/description/?envType=study-plan-v2&envId=leetcode-75 </br>
+You can find the code solution in [`Graph-findCircleNum.js`](./Graph-findCircleNum.js).
 
 ##  9. Wrap-Up
 You also can check all the Common Data Structure Operations  table below
