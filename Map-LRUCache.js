@@ -47,3 +47,7 @@ console.log(obj)
 // convert iterator to array
 //  let keysArray = Array.from(keys)
 //  let keysArray2 = [...map.keys()]
+// The same works as Set
+//  let set = new Set([1, 2, 3, 4])
+//  let arraySet = Array.from(set)
+//   let arraySet2 = [...set]
