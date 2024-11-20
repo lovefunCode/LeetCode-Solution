@@ -119,7 +119,8 @@ You can find the code solution in [`findMedianFromDataStream.js`](./findMedianFr
 5. LeetCode 153 Find Minimum In Rotated Sorted Array https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/description/ </br>
 You can find the code solution in [`findMinInRotatedArray.js`](./findMinInRotatedArray.js)
 
-6. LeetCode 2300 Successful Pairs of Spells and Potions https://leetcode.com/problems/successful-pairs-of-spells-and-potions/?envType=study-plan-v2&envId=leetcode-75
+6. LeetCode 2300 Successful Pairs of Spells and Potions https://leetcode.com/problems/successful-pairs-of-spells-and-potions/?envType=study-plan-v2&envId=leetcode-75 </br>
+You can find the code solution in [`successfulPairs.js`](./successfulPairs.js)
 
 
 # 5. Sliding Window
