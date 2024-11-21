@@ -58,14 +58,14 @@ Linked List is a random placement in memory.
 ![alt text](./image/linkedList3.png)
 ![alt text](./image/linkedList.png)
 
-You can find the Code in [`LL-Create.js`](./LL(LinkedList)LL-Create.js). </br>
+You can find the Code in [`LL-Create.js`](./LL(LinkedList)/LL-Create.js). </br>
 You can find the Code in [`LL-Push.js`](./LL(LinkedList)/LL-Push.js).</br>
-You can find the Code in [`LL-Pop.js`](./LL(LinkedList)LL-Pop.js).</br>
-You can find the Code in [`LL-Unshift.js`](./LL(LinkedList)LL-Unshift.js).</br>
-You can find the Code in [`LL-Shift.js`](./LL(LinkedList)LL-Shift.js).</br>
-You can find the Code in [`LL-Get.js`](./LL(LinkedList)LL-Get.js).</br>
-You can find the Code in [`LL-Set.js`](./LL(LinkedList)LL-Set.js).</br>
-You can find the Code in [`LL-Remove.js`](./LL(LinkedList)LL-Remove.js).</br>
+You can find the Code in [`LL-Pop.js`](./LL(LinkedList)/LL-Pop.js).</br>
+You can find the Code in [`LL-Unshift.js`](./LL(LinkedList)/LL-Unshift.js).</br>
+You can find the Code in [`LL-Shift.js`](./LL(LinkedList)/LL-Shift.js).</br>
+You can find the Code in [`LL-Get.js`](./LL(LinkedList)/LL-Get.js).</br>
+You can find the Code in [`LL-Set.js`](./LL(LinkedList)/LL-Set.js).</br>
+You can find the Code in [`LL-Remove.js`](./LL(LinkedList)/LL-Remove.js).</br>
 
 ## 4. HashMap(Key-Value Pairs, in JavaScript can use Object/Map)
 ![alt text](./image/hashMap.png)
