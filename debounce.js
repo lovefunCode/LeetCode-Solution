@@ -14,7 +14,7 @@ function debounce(fun, delay){
 const debounce2 = (fn, delay)=>{
     let timerId = null;
     console.log(this);
-    return function(args){
+    return function(...args){
         let that = this;
         clearTimeout(timerId)
         timerId = setTimeout(()=>{

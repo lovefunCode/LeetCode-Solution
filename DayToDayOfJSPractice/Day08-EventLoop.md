@@ -24,5 +24,5 @@ The event loop is the mechanism that handles the execution of code, events, and 
 ![alt text](../image/eventLoop.gif)
 
 
-You can check the code in [`Day08-EventLoop.js`](./BST-DFS-RenderTree.js).
+You can check the code in [`Day08-EventLoop.js`](./Day08-EventLoop.js).
 

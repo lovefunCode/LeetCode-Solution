@@ -1,8 +1,8 @@
 // Promise :   JavaScript Object
 //  3 states: 
 // Pending
-// resolve
-//  reject
+// fulfilled
+//  rejected
 
 const promise = new Promise(callback)
 
