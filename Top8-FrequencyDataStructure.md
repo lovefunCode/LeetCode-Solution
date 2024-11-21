@@ -58,14 +58,14 @@ Linked List is a random placement in memory.
 ![alt text](./image/linkedList3.png)
 ![alt text](./image/linkedList.png)
 
-You can find the Code in [`LL-Create.js`](./LL-Create.js). </br>
-You can find the Code in [`LL-Push.js`](./LL-Push.js).</br>
-You can find the Code in [`LL-Pop.js`](./LL-Pop.js).</br>
-You can find the Code in [`LL-Unshift.js`](./LL-Unshift.js).</br>
-You can find the Code in [`LL-Shift.js`](./LL-Shift.js).</br>
-You can find the Code in [`LL-Get.js`](./LL-Get.js).</br>
-You can find the Code in [`LL-Set.js`](./LL-Set.js).</br>
-You can find the Code in [`LL-Remove.js`](./LL-Remove.js).</br>
+You can find the Code in [`LL-Create.js`](./LL(LinkedList)LL-Create.js). </br>
+You can find the Code in [`LL-Push.js`](./LL(LinkedList)/LL-Push.js).</br>
+You can find the Code in [`LL-Pop.js`](./LL(LinkedList)LL-Pop.js).</br>
+You can find the Code in [`LL-Unshift.js`](./LL(LinkedList)LL-Unshift.js).</br>
+You can find the Code in [`LL-Shift.js`](./LL(LinkedList)LL-Shift.js).</br>
+You can find the Code in [`LL-Get.js`](./LL(LinkedList)LL-Get.js).</br>
+You can find the Code in [`LL-Set.js`](./LL(LinkedList)LL-Set.js).</br>
+You can find the Code in [`LL-Remove.js`](./LL(LinkedList)LL-Remove.js).</br>
 
 ## 4. HashMap(Key-Value Pairs, in JavaScript can use Object/Map)
 ![alt text](./image/hashMap.png)
@@ -129,23 +129,23 @@ you can find the Code in [`Map-LRUCache.js`](./Map-LRUCache.js).
 ![alt text](./image/BST.gif)
 1. First create a tree 
 ![alt text](./image/binary-tree-creation-small.gif)
-[`BST-Create.js`](./BST-Create.js).
+[`BST-Create.js`](./BST(BinarySearchTree)/BST-Create.js).
 
 2. Insert BST </br>
 ![alt text](./image/BST-Insertion.gif) </br>
-[`BST-Insert.js`](./BST-Insert.js).
+[`BST-Insert.js`](./BST(BinarySearchTree)/BST-Insert.js).
 
 3. Contains node
-[`BST-Contains.js`](./BST-Contains.js).
+[`BST-Contains.js`](./BST(BinarySearchTree)/BST-Contains.js).
 
 4. Find the minimum of the currentNode
-[`BST-Findmin.js`](./BST-Findmin.js).
+[`BST-Findmin.js`](./BST(BinarySearchTree)/BST-Findmin.js).
 
 5. Find the maxmum of the currentNode
-[`BST-FindMax.js`](./BST-FindMax.js).
+[`BST-FindMax.js`](./BST(BinarySearchTree)/BST-FindMax.js).
 
 You can find the whole BST code in 
-[`BST-Whole.js`](./BST-Whole.js).
+[`BST-Whole.js`](./BST(BinarySearchTree)/BST-Whole.js).
 
 ### Key Points for `isValidBST` Function
 - Uses recursion to validate each node.

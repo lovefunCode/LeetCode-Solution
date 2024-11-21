@@ -60,34 +60,34 @@ For more you can check more about the Recursion [`Recursion.md`](./Recursion.md)
 ![alt text](./image/BST-BFS.gif)
 ![alt text](./image/binary-tree-level-order-small.gif)
 
-You also can find the Code in [`BST-BFS.js`](./BST-BFS.js).
+You also can find the Code in [`BST-BFS.js`](./BST(BinarySearchTree)/BST-BFS.js).
 
-You can check the frontend use case in [`BST-BFS-DomTraversel.js`](./BST-BFS-DomTraversel.js).
+You can check the frontend use case in [`BST-BFS-DomTraversel.js`](./BST(BinarySearchTree)/BST-BFS-DomTraversel.js).
 ## 3.2 DFS(Depth-First-Search) use Stack(FILO) data structure
 ### Pre-Order(Root-Left-Right)
 ![alt text](./image/BFS-PreOrder.gif)
 ![alt text](./image/binary-tree-pre-order.gif)
-You also can find the Code in [`BST-DFS-PreOrder.js`](./BST-DFS-PreOrder.js).
+You also can find the Code in [`BST-DFS-PreOrder.js`](./BST(BinarySearchTree)/BST-DFS-PreOrder.js).
 ### Post-Order(Left-Right-Root)
 ![alt text](./image/binary-tree-post-order.gif)
-You also can find the Code in [`BST-DFS-PostOrder.js`](./BST-DFS-PostOrder.js).
+You also can find the Code in [`BST-DFS-PostOrder.js`](./BST(BinarySearchTree)/BST-DFS-PostOrder.js).
 ### In-Order(Left-Root-Right)
 ![alt text](./image/binary-tree-inorder.gif)
-You also can find the Code in [`BST-DFS-InOrder.js`](./BST-DFS-InOrder.js).
+You also can find the Code in [`BST-DFS-InOrder.js`](./BST(BinarySearchTree)/BST-DFS-InOrder.js).
 
-You can check the frontend use case in [`BST-DFS-RenderTree.js`](./BST-DFS-RenderTree.js).
+You can check the frontend use case in [`BST-DFS-RenderTree.js`](./BST(BinarySearchTree)/BST-DFS-RenderTree.js).
 
 LeetCode Problems:
 1. LeetCode 102. Binary Tree Level Order Traversal https://leetcode.com/problems/binary-tree-level-order-traversal/?envType=study-plan-v2&envId=top-100-liked  </br>
-You can find the code solution in [`BT-levelOrder.js`](./BT-levelOrder.js)
+You can find the code solution in [`BT-levelOrder.js`](./BST(BinarySearchTree)/BT-levelOrder.js)
 2. LeetCode 547. Number of Provinces  https://leetcode.com/problems/number-of-provinces/description/ </br>
 You can find the code solution in [`Graph-findCircleNum.js`](./Graph-findCircleNum.js)
 3. LeetCode 105. Construct Binary Tree From Preorder And Inorder Traversal  https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/description/?envType=study-plan-v2&envId=top-100-liked </br>
-You can find the code solution in [`BT-BuildTree-FromPreOrderAndInOrder.js`](./BT-BuildTree-FromPreOrderAndInOrder.js)
+You can find the code solution in [`BT-BuildTree-FromPreOrderAndInOrder.js`](./BST(BinarySearchTree)/BT-BuildTree-FromPreOrderAndInOrder.js)
 4. LeetCode 108. Convert Sorted Array to Binary Search Tree https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/description/?envType=study-plan-v2&envId=top-100-liked </br>
-You can find the code solution in [`BST-SortedArrayToBST.js`](./BST-SortedArrayToBST.js)
+You can find the code solution in [`BST-SortedArrayToBST.js`](./BST(BinarySearchTree)/BST-SortedArrayToBST.js)
 5. LeetCode 98. Valid Binary Search Tree https://leetcode.com/problems/validate-binary-search-tree/description/?envType=study-plan-v2&envId=top-100-liked </br>
-You can find the code solution in [`BST-ValidateBST.js`](./BST-ValidateBST.js)
+You can find the code solution in [`BST-ValidateBST.js`](./BST(BinarySearchTree)/BST-ValidateBST.js)
 
 
 # 4. Binary Search
