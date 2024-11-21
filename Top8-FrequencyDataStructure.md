@@ -63,7 +63,8 @@ You can find the Code in [`LL-Push.js`](./LL-Push.js).</br>
 You can find the Code in [`LL-Pop.js`](./LL-Pop.js).</br>
 You can find the Code in [`LL-Unshift.js`](./LL-Unshift.js).</br>
 You can find the Code in [`LL-Shift.js`](./LL-Shift.js).</br>
-
+You can find the Code in [`LL-Get.js`](./LL-Get.js).</br>
+You can find the Code in [`LL-Set.js`](./LL-Set.js).</br>
 
 ## 4. HashMap(Key-Value Pairs, in JavaScript can use Object/Map)
 ![alt text](./image/hashMap.png)
