@@ -15,6 +15,9 @@ You can find the code solution in [`lengthOfLongestSubstring.js`](./lengthOfLong
 You can find the code solution in [`longestCommonPrefix.js`](./longestCommonPrefix.js)
 6. LeetCode 17. Letter Combinations of a phone number https://leetcode.com/problems/letter-combinations-of-a-phone-number/?envType=problem-list-v2&envId=string </br>
 You can find the code solution in [`letterCombinations.js`](./letterCombinations.js)
+7. LeetCode 49 Group Anagrams https://leetcode.com/problems/group-anagrams/?envType=problem-list-v2&envId=string </br>
+You can find the code solution in [`groupAnagrams.js`](./groupAnagrams.js)
+
 
 ## 1.1. Array
 array is a placed subsequentially in memory, with each element directly following the previous one.
