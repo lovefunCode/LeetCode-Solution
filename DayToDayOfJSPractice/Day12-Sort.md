@@ -89,3 +89,7 @@ the last sort's order will be preserved.
     O(n) for nearly sorted data
 
 ## TimSort: combining the merge sort and insertion sort algorithms to maximize efficiency
+
+LeetCode problems:
+1. LeetCode 2724 Sort BY https://leetcode.com/problems/sort-by/description/?envType=study-plan-v2&envId=30-days-of-javascript
+you can find the code in [`sortBy.js`](../sortBy.js)
