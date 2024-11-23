@@ -17,6 +17,8 @@ You can find the code solution in [`longestCommonPrefix.js`](./longestCommonPref
 You can find the code solution in [`letterCombinations.js`](./letterCombinations.js)
 7. LeetCode 49 Group Anagrams https://leetcode.com/problems/group-anagrams/?envType=problem-list-v2&envId=string </br>
 You can find the code solution in [`groupAnagrams.js`](./groupAnagrams.js)
+8. LeetCode 345. Reverse Vowels of a String https://leetcode.com/problems/reverse-vowels-of-a-string/description/?envType=study-plan-v2&envId=leetcode-75 </br>
+You can find the code solution in [`reverseVowelsInString.js`](./reverseVowelsInString.js)
 
 
 ## 1.1. Array
