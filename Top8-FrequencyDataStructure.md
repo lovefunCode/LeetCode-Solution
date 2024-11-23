@@ -52,6 +52,7 @@ array is a placed subsequentially in memory, with each element directly followin
 | Delete   | arr.splice(index, 1)                       | set.delete(val)              |
 | Size     | arr.length                                 | set.size                     |
 | Looping     | for, ForEach, for...of, for...in, map,etc                              | forEach, for...of  you cannot access elements by index                   |
+| Mutual Convert     | new Set(arr)                                | Array.from(set); [...set]                   |
 
 ## 2. Queue(First-In-First-Out),  Stack(First-In-Last-Out)
 ![alt text](./image/queue.png)
