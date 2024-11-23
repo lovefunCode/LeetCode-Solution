@@ -89,6 +89,10 @@ You can find the code solution in [`BST-SortedArrayToBST.js`](./BST(BinarySearch
 5. LeetCode 98. Valid Binary Search Tree https://leetcode.com/problems/validate-binary-search-tree/description/?envType=study-plan-v2&envId=top-100-liked </br>
 You can find the code solution in [`BST-ValidateBST.js`](./BST(BinarySearchTree)/BST-ValidateBST.js)
 
+6. LeetCode 79. Word Search https://leetcode.com/problems/word-search/ </br>
+You can find the code solution in [`wordSearch-exist.js`](./wordSearch-exist.js)
+
+
 
 # 4. Binary Search
 Binary Search is an efficient algorithm for finding an element's position in a ### Sorted Array ###
