@@ -20,6 +20,9 @@ You can find the code solution in [`groupAnagrams.js`](./groupAnagrams.js)
 8. LeetCode 345. Reverse Vowels of a String https://leetcode.com/problems/reverse-vowels-of-a-string/description/?envType=study-plan-v2&envId=leetcode-75 </br>
 You can find the code solution in [`reverseVowelsInString.js`](./reverseVowelsInString.js)
 
+9. LeetCode 238 Product of Array Except Self https://leetcode.com/problems/product-of-array-except-self/?envType=study-plan-v2&envId=leetcode-75
+You can find the code solution in [`productExceptSelf.js`](./productExceptSelf.js)
+
 
 ## 1.1. Array
 array is a placed subsequentially in memory, with each element directly following the previous one.
