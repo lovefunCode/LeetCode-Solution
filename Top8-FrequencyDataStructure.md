@@ -23,6 +23,8 @@ You can find the code solution in [`reverseVowelsInString.js`](./reverseVowelsIn
 9. LeetCode 238 Product of Array Except Self https://leetcode.com/problems/product-of-array-except-self/?envType=study-plan-v2&envId=leetcode-75
 You can find the code solution in [`productExceptSelf.js`](./productExceptSelf.js)
 
+10. LeetCode 43 Multiply Strings https://leetcode.com/problems/multiply-strings/?envType=problem-list-v2&envId=string 
+You can find the code solution in [`multiplyStrings.js`](./multiplyStrings.js)
 
 ## 1.1. Array
 array is a placed subsequentially in memory, with each element directly following the previous one.
