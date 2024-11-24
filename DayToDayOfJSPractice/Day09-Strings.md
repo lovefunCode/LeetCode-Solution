@@ -28,3 +28,6 @@ let str = ''
 
 ## 14. str.concat(str2)
 
+## 15. padStart(length, '0')
+
+## 16. padEnd(length, '0')

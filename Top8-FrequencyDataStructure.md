@@ -29,7 +29,8 @@ You can find the code solution in [`multiplyStrings.js`](./multiplyStrings.js)
 11. LeetCode 67 Add Binary https://leetcode.com/problems/add-binary/?envType=problem-list-v2&envId=string
 </br>
 You can find the code solution in [`addBinary.js`](./addBinary.js)
-12. Derived from add Binary to add Strings 
+
+12. LeetCode 415 Add Strings https://leetcode.com/problems/add-strings/description/ </br> Derived from add Binary to add Strings 
 You can find the code solution in [`addStrings.js`](./addStrings.js)
 
 
