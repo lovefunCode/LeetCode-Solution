@@ -20,14 +20,13 @@ You can find the code solution in [`groupAnagrams.js`](./groupAnagrams.js)
 8. LeetCode 345. Reverse Vowels of a String https://leetcode.com/problems/reverse-vowels-of-a-string/description/?envType=study-plan-v2&envId=leetcode-75 </br>
 You can find the code solution in [`reverseVowelsInString.js`](./reverseVowelsInString.js)
 
-9. LeetCode 238 Product of Array Except Self https://leetcode.com/problems/product-of-array-except-self/?envType=study-plan-v2&envId=leetcode-75
+9. LeetCode 238 Product of Array Except Self https://leetcode.com/problems/product-of-array-except-self/?envType=study-plan-v2&envId=leetcode-75 </br>
 You can find the code solution in [`productExceptSelf.js`](./productExceptSelf.js)
 
-10. LeetCode 43 Multiply Strings https://leetcode.com/problems/multiply-strings/?envType=problem-list-v2&envId=string 
+10. LeetCode 43 Multiply Strings https://leetcode.com/problems/multiply-strings/?envType=problem-list-v2&envId=string  </br>
 You can find the code solution in [`multiplyStrings.js`](./multiplyStrings.js)
 
-11. LeetCode 67 Add Binary https://leetcode.com/problems/add-binary/?envType=problem-list-v2&envId=string
-</br>
+11. LeetCode 67 Add Binary https://leetcode.com/problems/add-binary/?envType=problem-list-v2&envId=string </br>
 You can find the code solution in [`addBinary.js`](./addBinary.js)
 
 12. LeetCode 415 Add Strings https://leetcode.com/problems/add-strings/description/ </br> Derived from add Binary to add Strings 
