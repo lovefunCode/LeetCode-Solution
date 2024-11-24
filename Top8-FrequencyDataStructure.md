@@ -26,6 +26,13 @@ You can find the code solution in [`productExceptSelf.js`](./productExceptSelf.j
 10. LeetCode 43 Multiply Strings https://leetcode.com/problems/multiply-strings/?envType=problem-list-v2&envId=string 
 You can find the code solution in [`multiplyStrings.js`](./multiplyStrings.js)
 
+11. LeetCode 67 Add Binary https://leetcode.com/problems/add-binary/?envType=problem-list-v2&envId=string
+</br>
+You can find the code solution in [`addBinary.js`](./addBinary.js)
+12. Derived from add Binary to add Strings 
+You can find the code solution in [`addStrings.js`](./addStrings.js)
+
+
 ## 1.1. Array
 array is a placed subsequentially in memory, with each element directly following the previous one.
 ![alt text](./image/array2.png)
