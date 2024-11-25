@@ -32,6 +32,9 @@ You can find the code solution in [`addBinary.js`](./addBinary.js)
 12. LeetCode 415 Add Strings https://leetcode.com/problems/add-strings/description/ </br> Derived from add Binary to add Strings 
 You can find the code solution in [`addStrings.js`](./addStrings.js)
 
+13. LeetCode 88 Merge Sorted Array https://leetcode.com/problems/merge-sorted-array/description/?envType=study-plan-v2&envId=top-interview-150 </br>
+You can find the code solution in [`mergeTwoOrderArr.js`](./mergeTwoOrderArr.js)
+
 
 ## 1.1. Array
 array is a placed subsequentially in memory, with each element directly following the previous one.
