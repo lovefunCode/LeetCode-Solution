@@ -11,7 +11,7 @@ const missingNumber = function(nums){
 
 const missingNumber2 = function(nums){
     let set = new Set(nums)
-    for(let i = 0; i <nums.length; i++){
+    for(let i = 0; i <= nums.length; i++){
         if(!set.has(i)){
             return i
         }
