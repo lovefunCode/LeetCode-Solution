@@ -195,6 +195,13 @@ LeetCode problems:
 1. Leetcode 547. Number of Provinces https://leetcode.com/problems/number-of-provinces/description/?envType=study-plan-v2&envId=leetcode-75 </br>
 You can find the code solution in [`Graph-findCircleNum.js`](./Graph-findCircleNum.js).
 
+# Bit Manipulation
+XOR ^  only o^1 = 1
+<Br>
+LeetCode problems:
+1. Leetcode 268. Missing Number https://leetcode.com/problems/missing-number/description/ </br>
+You can find the code solution in [`missingNumber.js`](./missingNumber.js).
+
 ##  9. Wrap-Up
 You also can check all the Common Data Structure Operations  table below
 ![alt text](./image/commonDSOperations.png)
