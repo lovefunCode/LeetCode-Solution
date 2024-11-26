@@ -35,6 +35,11 @@ You can find the code solution in [`addStrings.js`](./addStrings.js)
 13. LeetCode 88 Merge Sorted Array https://leetcode.com/problems/merge-sorted-array/description/?envType=study-plan-v2&envId=top-interview-150 </br>
 You can find the code solution in [`mergeTwoOrderArr.js`](./mergeTwoOrderArr.js)
 
+14. LeetCode 8. String to Integer(atoi) https://leetcode.com/problems/string-to-integer-atoi/description/?envType=problem-list-v2&envId=string </br>
+You can find the code solution in [`stringToInteger.js`](./stringToInteger.js)
+
+15. LeetCode 242 Valid Anagram https://leetcode.com/problems/valid-anagram/description/?envType=problem-list-v2&envId=string </br>
+You can find the code solution in [`isAnagram.js`](./isAnagram.js)
 
 ## 1.1. Array
 array is a placed subsequentially in memory, with each element directly following the previous one.
