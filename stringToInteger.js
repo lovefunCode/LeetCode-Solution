@@ -25,7 +25,7 @@ const stringToInteger  = function(s){
         number = -number
     }
     console.log(number)
-    const IntMax = 2 ** 32 -1
+    const IntMax = 2 ** 31 -1
     const IntMin = - (2 ** 31)
 
     if(number > IntMax) return IntMax
