@@ -53,3 +53,4 @@ const compareVersion2 = function(version1, version2){
 console.log(compareVersion2('1.0', '1.0.0.0'))
 // console.log(compareVersion2('1.01', '1.000100'))
 
+
