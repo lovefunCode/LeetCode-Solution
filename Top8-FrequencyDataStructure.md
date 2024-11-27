@@ -170,10 +170,10 @@ you can find the Code in [`Map-LRUCache.js`](./Map-LRUCache.js).
 5. Find the maxmum of the currentNode
 [`BST-FindMax.js`](./BST(BinarySearchTree)/BST-FindMax.js).
 
-You can find the whole BST code in 
+6. You can find the whole BST code in 
 [`BST-Whole.js`](./BST(BinarySearchTree)/BST-Whole.js).
 
-6. Invert Binary Tree
+7. Invert Binary Tree
 You can find the code in 
 [`BST-InvertTree.js`](./BST(BinarySearchTree)/BST-InvertTree.js).
 
