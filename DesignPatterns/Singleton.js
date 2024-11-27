@@ -3,6 +3,7 @@
 // instance
 // Use case: Singleton pattern for Configuration Management
 
+
 class Config{
     constructor(){
         if(Config.instance){
@@ -15,6 +16,9 @@ class Config{
             timeout: 5000,
         }
 
+        // deep freeze the settings object
+        this.deepFreeze(this.settings)
+
         // lock the instance
         Config.instance = this
         return this
@@ -23,21 +27,51 @@ class Config{
     get(key){
         return this.settings[key]
     }
-    set(key){
+    set(key, value){
         this.settings[key] = value
+    }
+
+    deepFreeze(obj){
+        // 
+        const propNames = Object.getOwnPropertyNames(obj)
+        console.log('propNames', propNames)
+        propNames.forEach(name=>{
+            const value = obj[name]
+            obj[name]= (value && typeof value == 'object' ) ? this.deepFreeze(value) : value
+        })
+        // console.log('obj---', obj)
+        return Object.freeze(obj)
+
     }
 }
 
 const configInstance = new Config();
-Object.freeze(configInstance)
 
-console.log("API URL:", config.get("apiUrl"));  
-console.log("Environment:", config.get("environment")); 
+const configInstance2 = new Config();
+// 1. Prevent accidental modification of configuration objects
+//  2. Ensuring constant values
+// 3 Immutable state management like Redux, immutablility is crucial
+// 4. Sure code in multi-developer environments
+//  5. Prevent tampering in security-sensitive applications
 
-config.set("timeout", 10000);
-console.log("Updated Timeout:", config.get("timeout"));
+console.log(configInstance)
+Object.freeze(configInstance) // cannot work
+//  Config is object nested another object 
+
+console.log("API URL:", configInstance.get("apiUrl"));  
+console.log("Environment:", configInstance.get("environment")); 
+
+try{
+    configInstance.set("timeout", 10000);
+
+}catch(err){
+    console.log('err===', err)
+}
+console.log("Updated Timeout:", configInstance.get("timeout"));
 
 // advantages: 
 // 1. Consistency
 //  2. Centralized management
 //  3. Memory efficient
+
+
