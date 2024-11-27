@@ -173,6 +173,11 @@ you can find the Code in [`Map-LRUCache.js`](./Map-LRUCache.js).
 You can find the whole BST code in 
 [`BST-Whole.js`](./BST(BinarySearchTree)/BST-Whole.js).
 
+6. Invert Binary Tree
+You can find the code in 
+[`BST-InvertTree.js`](./BST(BinarySearchTree)/BST-InvertTree.js).
+
+
 ### Key Points for `isValidBST` Function
 - Uses recursion to validate each node.
 - Each node’s value should be within a specific range (`min` and `max` bounds).
