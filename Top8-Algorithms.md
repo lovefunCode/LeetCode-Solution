@@ -188,4 +188,8 @@ you can find the explanation in
  ![alt text](./image/DP-BestTimeSellStock.png)
 You can find the code solution in [`bestTimeToSellStock.js`](./bestTimeToSellStock.js)
 
+2. LeetCode 152. Maximum Product Subarry
+https://leetcode.com/problems/maximum-product-subarray/description/
+You can find the code solution in [`maxProductSubarray.js`](./maxProductSubarray.js)
+
 # 8. Greedy
