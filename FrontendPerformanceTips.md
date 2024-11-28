@@ -26,3 +26,5 @@ Comparision async, defer, and default <br>
     <link rel='preload'>
 ## 8. Pre-fetching
     <link rel='prefetch'>
+## 9. event handlers using debounce and throthle
+

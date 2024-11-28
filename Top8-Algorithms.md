@@ -192,4 +192,9 @@ You can find the code solution in [`bestTimeToSellStock.js`](./bestTimeToSellSto
 https://leetcode.com/problems/maximum-product-subarray/description/
 You can find the code solution in [`maxProductSubarray.js`](./maxProductSubarray.js)
 
+3. LeetCode 70 Climbing Stairs
+https://leetcode.com/problems/climbing-stairs/description/
+You can find the code solution in [`climbStairs.js`](./climbStairs.js)
+
+
 # 8. Greedy
