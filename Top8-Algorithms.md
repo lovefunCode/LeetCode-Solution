@@ -181,6 +181,14 @@ You also can find code solution in [`subset.js`](./subsets.js).
 You also can find code solution in [`combinations.js`](./combinations.js).
 
 # 7. Dynamic Programming
+## Key Features:
+    1. Optimal substructure
+    2. Overlapping Subproblems
+    3. Memoization(Top-down approach)
+    4. Tabulation(Bottom-up approach)
+    5. State and Transition
+    6. Solution Storage
+
 LeetCode Problems:
 1. LeetCode 121. Best Time to Buy and Sell Stock
 https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/ </br>
