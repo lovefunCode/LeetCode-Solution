@@ -200,7 +200,7 @@ You can find the function definition in [`BreadthFirstSearch.js`](./BreadthFirst
 ##  6. Trie/Prefix Tree   26 alphabets
 ![alt text](./image/trie.png)
 LeetCode Problems: 
-1. 211. Design Add and Search Words Data Structure https://leetcode.com/problems/design-add-and-search-words-data-structure/
+1. LeetCode 211.Design Add and Search Words Data Structure https://leetcode.com/problems/design-add-and-search-words-data-structure/ </br>
 You can find the code in [`WordDictionary.js`](./WordDictionary.js).
 
 
