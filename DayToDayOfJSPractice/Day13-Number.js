@@ -25,6 +25,9 @@ console.log(parseInt("-10.33"))   //-10
 
 console.log(parseInt("-10.33", 2))   //-2
 
+// parseInt will ignore the leading zero
+console.log(parseInt("-0010.33"))   //-10
+
 // parseFloat()  parse a string into a float-point number
 console.log(parseFloat("-10.33"))   //-10.33
 
