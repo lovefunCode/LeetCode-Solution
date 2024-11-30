@@ -182,6 +182,9 @@ https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/
 You can find the code in 
 [`BST-InvertTree.js`](./BST(BinarySearchTree)/BST-lowestCommonAncestor.js).
 
+9. LeetCode 450 Delete Node in a BST https://leetcode.com/problems/delete-node-in-a-bst/description/ </br>
+You can find the code in 
+[`BST-DeleteNode.js`](./BST(BinarySearchTree)/BST-DeleteNode.js).
 
 ### Key Points for `isValidBST` Function
 - Uses recursion to validate each node.
