@@ -207,7 +207,7 @@ LeetCode Problems:
 You can find the code in [`Trie.js`](./Trie.js).
 
 2. LeetCode 211.Design Add and Search Words Data Structure https://leetcode.com/problems/design-add-and-search-words-data-structure/ </br>
-You can find the code in [`Trie-WordDictionary.js`](./WordDictionary.js).
+You can find the code in [`Trie-WordDictionary.js`](./Trie-WordDictionary.js).
 
 
 ##  7. Heap
