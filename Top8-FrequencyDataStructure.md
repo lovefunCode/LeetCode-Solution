@@ -156,8 +156,8 @@ you can find the Code in [`Map-LRUCache.js`](./Map-LRUCache.js).
 ### 1. Binary Search Tree (left node is always smaller than the root, while the right node is always larger than root)
 ![alt text](./image/binaryTree.png)
 ![alt text](./image/BST.gif)
-1. First create a tree 
 ![alt text](./image/binary-tree-creation-small.gif)
+1. First create a tree 
 [`BST-Create.js`](./BST(BinarySearchTree)/BST-Create.js).
 
 2. Insert BST </br>

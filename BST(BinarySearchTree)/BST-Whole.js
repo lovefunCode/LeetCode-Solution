@@ -70,6 +70,37 @@ class BST{
         }
         return temp.value
     }
+    deleteNode(root, val){
+        if(root == null){
+            return root
+        }
+        if(val > root.val){
+            this.deleteNode(root.right, val)
+        }else if(val < root.val){
+            this.deleteNode(root.left, val)
+        }else{
+            // No child
+            if(root.left == null && root.rigth == null){
+                return null
+            }
+            // Only left child
+            if(root.right == null){
+                return root.left
+            }
+            // Only right child
+            if(root.left == null){
+                return root.right
+            }
+            // Both left and right children exist
+            let temp = root.left
+            while(temp.right){
+                temp = temp.right
+            }
+            root.value = temp.val
+            root.left = this.deleteNode(root.left, temp.val)
+            return root
+        }
+    }
 
     bfs(){
         if(this.root == null){
@@ -116,6 +147,47 @@ class BST{
         traverse(this.root)
         return result
     }
+
+    depthInOrder(){
+        if(this.root == null){
+            return -1
+        }
+        let result = []
+        function traverse(currNode){
+            if(currNode.left){
+                traverse(currNode.left)
+            }
+            if(currNode.value){
+                result.push(currNode.value)
+            }
+            if(currNode.right){
+                traverse(currNode.right)
+            }
+        }
+        traverse(this.root)
+        return result
+    }
+
+    depthPostOrder(){
+        if(this.root == null){
+            return -1
+        }
+        let result = []
+        function traverse(currNode){
+            if(currNode.left){
+                traverse(currNode.left)
+            }
+            if(currNode.right){
+                traverse(currNode.right)
+            }
+            if(currNode.value){
+                result.push(currNode.value)
+            }
+        }
+        traverse(this.root)
+        return result
+    }
+
 
 }
 

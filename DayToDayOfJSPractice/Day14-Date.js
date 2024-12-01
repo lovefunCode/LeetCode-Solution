@@ -48,3 +48,14 @@ function formatNumber(n){
 console.log(formatDate('time'))
 console.log(formatDate())
 
+// 1. Date static method:
+//    Date.now()
+//    Date.parse()
+//    Date.UTC()
+
+//  2. Date instance methods
+//  new Date().getDate()
+//  new Date().getDay()
+//  new Date().getFullYear()
+//  new Date().getMonth()
+
