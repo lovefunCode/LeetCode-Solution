@@ -160,8 +160,8 @@ you can find the Code in [`Map-LRUCache.js`](./Map-LRUCache.js).
 1. First create a tree 
 [`BST-Create.js`](./BST(BinarySearchTree)/BST-Create.js).
 
-2. Insert BST </br>
 ![alt text](./image/BST-Insertion.gif) </br>
+2. Insert BST </br>
 [`BST-Insert.js`](./BST(BinarySearchTree)/BST-Insert.js).
 
 3. Contains node
