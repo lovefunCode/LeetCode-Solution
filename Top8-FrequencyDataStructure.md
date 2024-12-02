@@ -44,6 +44,10 @@ You can find the code solution in [`isAnagram.js`](./isAnagram.js)
 16. LeetCode 42 Trapping Rain Water https://leetcode.com/problems/trapping-rain-water/?envType=study-plan-v2&envId=top-interview-150 </br>
 You can find the code solution in [`trapRainWater.js`](./trapRainWater.js)
 
+17. LeetCode 26. Remove Duplicates from Sorted Array
+https://leetcode.com/problems/remove-duplicates-from-sorted-array/?envType=study-plan-v2&envId=top-interview-150 </br>
+You can find the code solution in [`tremoveDuplicates.js`](./removeDuplicates.js)
+
 ## 1.1. Array
 array is a placed subsequentially in memory, with each element directly following the previous one.
 ![alt text](./image/array2.png)
@@ -232,6 +236,12 @@ XOR ^  only o^1 = 1
 LeetCode problems:
 1. Leetcode 268. Missing Number https://leetcode.com/problems/missing-number/description/ </br>
 You can find the code solution in [`missingNumber.js`](./missingNumber.js).
+
+# Matrix
+LeetCode problems:
+1. LeetCode 54 Spiral Matrix https://leetcode.com/problems/spiral-matrix/
+You can find the code solution in [`spiralOrderMatrix.js`](./spiralOrderMatrix.js).
+
 
 ##  9. Wrap-Up
 You also can check all the Common Data Structure Operations  table below
