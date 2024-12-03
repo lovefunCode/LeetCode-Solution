@@ -241,7 +241,8 @@ You can find the code solution in [`missingNumber.js`](./missingNumber.js).
 LeetCode problems:
 1. LeetCode 54 Spiral Matrix https://leetcode.com/problems/spiral-matrix/
 You can find the code solution in [`spiralOrderMatrix.js`](./spiralOrderMatrix.js).
-
+2. LeetCode 73 Set Matrix Zeroes https://leetcode.com/problems/set-matrix-zeroes/description/
+You can find the code solution in [`setMatrixZeroes.js`](./setMatrixZeroes.js).
 
 ##  9. Wrap-Up
 You also can check all the Common Data Structure Operations  table below
