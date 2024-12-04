@@ -204,5 +204,8 @@ You can find the code solution in [`maxProductSubarray.js`](./maxProductSubarray
 https://leetcode.com/problems/climbing-stairs/description/
 You can find the code solution in [`climbStairs.js`](./climbStairs.js)
 
+4. LeetCode 198. House Robber https://leetcode.com/problems/house-robber/description/
+</br>
+You can find the code solution in [`houseRob.js`](./houseRob.js)
 
 # 8. Greedy
