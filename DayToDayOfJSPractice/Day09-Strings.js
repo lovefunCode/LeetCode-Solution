@@ -8,4 +8,7 @@ let str2 = 'hello, world'
 console.log(str2.indexOf('o'))  //4
 console.log(str2.indexOf('o', 5))  //8
 
+console.log(str.slice(0, 2))  //he
+console.log(str)    //hello
+ 
 

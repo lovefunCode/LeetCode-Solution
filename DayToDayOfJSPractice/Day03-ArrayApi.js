@@ -33,4 +33,8 @@ nums.forEach((val, index)=>{
 console.log(nums)   //[ 0, 3, 8, 5, 14, 8 ]
 
 
+console.log(nums.slice(0, 2))   [ 0, 3 ]
+console.log(nums)   //[ 0, 3, 8, 5, 14, 8 ]
+
+
 

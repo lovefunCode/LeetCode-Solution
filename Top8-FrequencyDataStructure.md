@@ -193,6 +193,11 @@ You can find the code in
 You can find the code in 
 [`BST-DeleteNode.js`](./BST(BinarySearchTree)/BST-DeleteNode.js).
 
+10. LeetCode 230 Kth Smallest Element in a BST https://leetcode.com/problems/kth-smallest-element-in-a-bst/description/ </br>
+You can find the code in 
+[`BST-KthSmallestElement.js`](./BST(BinarySearchTree)/BST-KthSmallestElement.js).
+
+
 ### Key Points for `isValidBST` Function
 - Uses recursion to validate each node.
 - Each node’s value should be within a specific range (`min` and `max` bounds).
