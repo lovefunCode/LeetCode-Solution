@@ -208,4 +208,10 @@ You can find the code solution in [`climbStairs.js`](./climbStairs.js)
 </br>
 You can find the code solution in [`houseRob.js`](./houseRob.js)
 
+
+
 # 8. Greedy
+
+# 9. Intervals:
+1. LeetCode 56, Merge Intervals https://leetcode.com/problems/merge-intervals/description/
+You can find the code solution in [`mergeIntervals.js`](./mergeIntervals.js)
