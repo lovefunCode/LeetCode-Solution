@@ -2,14 +2,15 @@ const evalRPN = function(token){
     let stack = []
     let operator = new Set(['+', "-", "/", "*"])
     for(let i = 0; i < token.length; i++){
-        if(operator.has(token[i])){
+        let token = tokens[i]
+        if(operator.has(token)){
             let a  = Number(stack.pop())
             let b = Number(stack.pop())
-            let expression = `${b} ${token[i]} ${a}`;
+            let expression = `${b} ${token} ${a}`;
             let val = parseInt(eval(expression))
             stack.push(val)
         }else{
-            stack.push(token[i])
+            stack.push(token)
         }
     }
     return stack[0]
