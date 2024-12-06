@@ -86,6 +86,9 @@ LeetCode Problems:
 1. You can find the function definition in [`validParentheses.js`](./validParentheses.js).
 2. LeetCode 71 Simplify Path https://leetcode.com/problems/simplify-path/ </br>
 You can find the function definition in [`simplifyPath.js`](./simplifyPath.js).
+3. LeetCode 155 Min Stack https://leetcode.com/problems/min-stack/?envType=study-plan-v2&envId=top-interview-150
+</br>
+You can find the function definition in [`MinStack.js`](./MinStack.js).
 
 ## 3. Linked List
 Unlike arrays, Linked List known as nodes
