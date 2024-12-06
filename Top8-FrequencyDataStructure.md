@@ -82,7 +82,10 @@ array is a placed subsequentially in memory, with each element directly followin
 ![alt text](./image/queue.png)
 
 ### Stack use scenarios
-You can find the function definition in [`validParentheses.js`](./validParentheses.js).
+LeetCode Problems:
+1. You can find the function definition in [`validParentheses.js`](./validParentheses.js).
+2. LeetCode 71 Simplify Path https://leetcode.com/problems/simplify-path/ </br>
+You can find the function definition in [`simplifyPath.js`](./simplifyPath.js).
 
 ## 3. Linked List
 Unlike arrays, Linked List known as nodes
