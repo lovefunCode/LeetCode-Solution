@@ -51,6 +51,9 @@ You can find the code solution in [`tremoveDuplicates.js`](./removeDuplicates.js
 18. LeetCode 383. Ransom Note, https://leetcode.com/problems/ransom-note/?envType=study-plan-v2&envId=top-interview-150 </br>
 You can find the code solution in [`canConstruct.js`](./canConstruct.js)
 
+19. LeetCode 205 Isomorphic Strings https://leetcode.com/problems/isomorphic-strings/description/?envType=study-plan-v2&envId=top-interview-150 </br>
+You can find the code solution in [`isIsomorphic.js`](./isIsomorphic.js)
+
 
 ## 1.1. Array
 array is a placed subsequentially in memory, with each element directly following the previous one.
