@@ -79,11 +79,11 @@ You can check the frontend use case in [`BST-DFS-RenderTree.js`](./BST(BinarySea
 
 LeetCode Problems:
 1. LeetCode 102. Binary Tree Level Order Traversal https://leetcode.com/problems/binary-tree-level-order-traversal/?envType=study-plan-v2&envId=top-100-liked  </br>
-You can find the code solution in [`BT-levelOrder.js`](./BT-levelOrder.js)
+You can find the code solution in [`BT-levelOrder.js`](./BT(BinaryTree)/BT-levelOrder.js)
 2. LeetCode 547. Number of Provinces  https://leetcode.com/problems/number-of-provinces/description/ </br>
 You can find the code solution in [`Graph-findCircleNum.js`](./Graph-findCircleNum.js)
 3. LeetCode 105. Construct Binary Tree From Preorder And Inorder Traversal  https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/description/?envType=study-plan-v2&envId=top-100-liked </br>
-You can find the code solution in [`BT-BuildTree-FromPreOrderAndInOrder.js`](./BT-BuildTree-FromPreOrderAndInOrder.js)
+You can find the code solution in [`BT-BuildTree-FromPreOrderAndInOrder.js`](./BT(BinaryTree)/BT-BuildTree-FromPreOrderAndInOrder.js)
 4. LeetCode 108. Convert Sorted Array to Binary Search Tree https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/description/?envType=study-plan-v2&envId=top-100-liked </br>
 You can find the code solution in [`BST-SortedArrayToBST.js`](./BST(BinarySearchTree)/BST-SortedArrayToBST.js)
 5. LeetCode 98. Valid Binary Search Tree https://leetcode.com/problems/validate-binary-search-tree/description/?envType=study-plan-v2&envId=top-100-liked </br>
@@ -92,6 +92,8 @@ You can find the code solution in [`BST-ValidateBST.js`](./BST(BinarySearchTree)
 6. LeetCode 79. Word Search https://leetcode.com/problems/word-search/ </br>
 You can find the code solution in [`wordSearch-exist.js`](./wordSearch-exist.js)
 
+7. LeetCode 113 Path Sum || https://leetcode.com/problems/path-sum-ii/ </br>
+You can find the code solution in [`BT-pathSum.js`](./BT(BinaryTree)/BT-pathSum.js)
 
 
 # 4. Binary Search
