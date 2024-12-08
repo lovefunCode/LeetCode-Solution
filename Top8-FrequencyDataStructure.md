@@ -118,6 +118,11 @@ You can find the Code in [`LL-Get.js`](./LL(LinkedList)/LL-Get.js).</br>
 You can find the Code in [`LL-Set.js`](./LL(LinkedList)/LL-Set.js).</br>
 You can find the Code in [`LL-Remove.js`](./LL(LinkedList)/LL-Remove.js).</br>
 
+LeetCode Problems:
+1. LeetCode 206. Reverse Linked List https://leetcode.com/problems/reverse-linked-list/description/
+</br>
+You can find the Code in [`LL-reverseList.js`](./LL(LinkedList)/LL-reverseList.js).</br>
+
 ## 4. HashMap(Key-Value Pairs, in JavaScript can use Object/Map)
 ![alt text](./image/hashMap.png)
  ```js
