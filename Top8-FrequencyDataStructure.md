@@ -122,6 +122,9 @@ LeetCode Problems:
 1. LeetCode 206. Reverse Linked List https://leetcode.com/problems/reverse-linked-list/description/
 </br>
 You can find the Code in [`LL-reverseList.js`](./LL(LinkedList)/LL-reverseList.js).</br>
+2. LeetCode 141. Linked List Cycle https://leetcode.com/problems/linked-list-cycle/description/?envType=study-plan-v2&envId=top-interview-150 </br>
+You can find the Code in [`LL-hasCycle.js`](./LL(LinkedList)/LL-hasCycle.js).</br>
+
 
 ## 4. HashMap(Key-Value Pairs, in JavaScript can use Object/Map)
 ![alt text](./image/hashMap.png)
