@@ -5,7 +5,7 @@ const isSubsequence = function(s, t){
             left++
         }
     }
-    return left == s.length-1
+    return left == s.length
 }
 
 const s = "abc", t = "ahbgdc"
