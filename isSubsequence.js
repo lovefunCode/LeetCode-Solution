@@ -1,6 +1,6 @@
 const isSubsequence = function(s, t){
     let left = 0
-    for(let i = 0; i < t.length; i++){
+    for(let i = 0; i < t.length && left < s.length; i++){
        if(t[i] == s[left]){
             left++
         }
