@@ -131,6 +131,8 @@ You can find the Code in [`LL-hasCycle.js`](./LL(LinkedList)/LL-hasCycle.js).</b
 3. LeetCode 234. Palindrome Linked List https://leetcode.com/problems/palindrome-linked-list/
 You can find the Code in [`LL-isPalindrome.js`](./LL(LinkedList)/LL-isPalindrome.js).</br>
 
+4. LeetCode 61. Rotate List https://leetcode.com/problems/rotate-list/description/?envType=study-plan-v2&envId=top-interview-150 </br>
+You can find the Code in [`LL-rotateRight.js`](./LL(LinkedList)/LL-rotateRight.js).</br>
 
 
 ## 4. HashMap(Key-Value Pairs, in JavaScript can use Object/Map)

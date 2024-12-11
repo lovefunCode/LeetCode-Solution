@@ -98,6 +98,8 @@ You can find the code solution in [`BT-pathSum.js`](./BT(BinaryTree)/BT-pathSum.
 8. LeetCode 100. Same Tree https://leetcode.com/problems/same-tree/description/?envType=study-plan-v2&envId=top-interview-150 </br>
 You can find the code solution in [`BT-isSameTree.js`](./BT(BinaryTree)/BT-isSameTree.js)
 
+9. LeetCode 104. Maximum Depth of Binary Tree https://leetcode.com/problems/maximum-depth-of-binary-tree/description/?envType=study-plan-v2&envId=top-interview-150 </br>
+You can find the Code in [`BT-maxDepth.js`](./BT(BinaryTree)/BT-maxDepth.js).</br>
 
 # 4. Binary Search
 Binary Search is an efficient algorithm for finding an element's position in a ### Sorted Array ###
