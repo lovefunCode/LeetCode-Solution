@@ -95,6 +95,9 @@ You can find the code solution in [`wordSearch-exist.js`](./wordSearch-exist.js)
 7. LeetCode 113 Path Sum || https://leetcode.com/problems/path-sum-ii/ </br>
 You can find the code solution in [`BT-pathSum.js`](./BT(BinaryTree)/BT-pathSum.js)
 
+8. LeetCode 100. Same Tree https://leetcode.com/problems/same-tree/description/?envType=study-plan-v2&envId=top-interview-150 </br>
+You can find the code solution in [`BT-isSameTree.js`](./BT(BinaryTree)/BT-isSameTree.js)
+
 
 # 4. Binary Search
 Binary Search is an efficient algorithm for finding an element's position in a ### Sorted Array ###
