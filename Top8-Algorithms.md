@@ -190,6 +190,9 @@ You also can find code solution in [`combinations.js`](./combinations.js).
 4. LeetCode 39. Combination Sum https://leetcode.com/problems/combination-sum/description/?envType=study-plan-v2&envId=top-interview-150 </br>
 You also can find code solution in [`combinationSum.js`](./combinationSum.js).
 
+5. LeetCode 40. Combination Sum || https://leetcode.com/problems/combination-sum-ii/description/
+You also can find code solution in [`combinationSum2.js`](./combinationSum2.js).
+
 # 7. Dynamic Programming
 ## Key Features:
     1. Optimal substructure
