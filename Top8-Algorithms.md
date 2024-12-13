@@ -196,6 +196,9 @@ You also can find code solution in [`combinationSum2.js`](./combinationSum2.js).
 6. LeetCode 216. Combination Sum ||| https://leetcode.com/problems/combination-sum-iii/
 You also can find code solution in [`combinationSum3.js`](./combinationSum3.js).
 
+7. LeetCode 377. Combination Sum IV https://leetcode.com/problems/combination-sum-iv/description/
+You also can find code solution in [`combinationSum4.js`](./combinationSum4.js).
+
 # 7. Dynamic Programming
 ## Key Features:
     1. Optimal substructure
