@@ -232,6 +232,9 @@ You can find the code in
 You can find the code in 
 [`BST-KthSmallestElement.js`](./BST(BinarySearchTree)/BST-KthSmallestElement.js).
 
+11. LeetCode 572. Subtree of Another SubTree https://leetcode.com/problems/subtree-of-another-tree/description/ </br>
+You can find the code in 
+[`BT-isSubTree.js`](./BT(BinaryTree)/BT-isSubTree.js).
 
 ### Key Points for `isValidBST` Function
 - Uses recursion to validate each node.
