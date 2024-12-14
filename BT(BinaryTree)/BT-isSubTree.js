@@ -5,7 +5,6 @@ function TreeNode(val, left=null, right=null){
 }
 
 
-
 const isSubTree = function(root, subRoot){
     if(!root){
         return !subRoot    // if root is null, check if subRoot is also null
