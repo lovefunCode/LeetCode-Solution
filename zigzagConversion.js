@@ -1,4 +1,7 @@
 const zigzagConversion = function(s, numRows){
+    if(s.length == 1 || numRows == 1){
+        return s
+    }
     let count = 0
     let dir = true
     let res = new Array(numRows).fill('')
@@ -11,11 +14,13 @@ const zigzagConversion = function(s, numRows){
             dir = true
         }
 
-        if(dir){
-            count++
-        }else{
-            count--
-        }
+        count += dir ? 1: -1
+
+        // if(dir){
+        //     count++
+        // }else{
+        //     count--
+        // }
     }
     console.log(res)
     return res.join('')
