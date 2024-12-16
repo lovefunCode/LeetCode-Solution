@@ -193,6 +193,10 @@ you can find the Code in [`Map-TimeLimitedCache.js`](./Map-TimeLimitedCache.js).
 2. LeetCode 146 LRU Cache https://leetcode.com/problems/lru-cache/description/?envType=problem-list-v2&envId=hash-table </br>
 you can find the Code in [`Map-LRUCache.js`](./Map-LRUCache.js).
 
+3. LeetCode 359. Logger Rate Limit https://leetcode.com/problems/logger-rate-limiter/description/
+
+you can find the Code in [`loggerRateLimit.js`](./loggerRateLimit.js).
+
 
 ## 5. Binary Tree
 ### 1. Binary Search Tree (left node is always smaller than the root, while the right node is always larger than root)
