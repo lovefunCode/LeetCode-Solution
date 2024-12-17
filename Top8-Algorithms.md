@@ -168,7 +168,11 @@ You can find the code solution in [`countSubstrings.js`](./countSubstrings.js)
 longest-substring-without-repeating-characters/description/  </br>
 You can find the code solution in [`lengthOfLongestSubstring.js`](./lengthOfLongestSubstring.js)
 
-Note: Binary Search also use two-pointers technique
+6. LeetCode 76. Minimum Window Substring https://leetcode.com/problems/minimum-window-substring/description/ </br>
+You can find the code solution in [`minWindowSubstring.js`](./minWindowSubstring.js)
+
+
+## Note: Binary Search also use two-pointers technique
 
 
 # 6.  Backtracking

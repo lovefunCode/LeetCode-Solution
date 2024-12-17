@@ -54,3 +54,27 @@ console.log(result)  //apple,banana,cherry
 
 let result2 = arrFruit.join('|')
 console.log(result2)  // apple|banana|cherry
+
+// some()
+
+// every()
+
+
+// flat()
+console.log([1, [2, [3]]].flat(2))   //[ 1, 2, 3 ]
+
+console.log([1, [2, [3]]].flat(1))   //[ 1, 2, [ 3 ] ]
+
+// find()
+const numbers3 = [1, 3, 5, 8, 10, 12, 14];
+console.log(numbers3.find((num, index)=>{
+    // console.log(num, index)
+    return index > 3 && num % 2 == 0     // 10
+}))
+
+// every()
+console.log(numbers3.every((num, index)=>{
+    // console.log(num, index)
+    return num > 0     // true
+    return  num % 2 == 0     // false
+}))
