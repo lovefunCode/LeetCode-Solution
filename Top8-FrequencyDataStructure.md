@@ -60,6 +60,10 @@ You can find the code solution in [`isSubsequence.js`](./isSubsequence.js)
 21. LeetCode 6. ZigZag Conversion https://leetcode.com/problems/zigzag-conversion/ </br>
 You can find the code solution in [`zigzagConversion.js`](./zigzagConversion.js)
 
+22. LeetCode 169. Majority Element https://leetcode.com/problems/majority-element/description/?envType=study-plan-v2&envId=top-interview-150
+You can find the code solution in [`majorityElement.js`](./majorityElement.js)
+
+
 ## 1.1. Array
 array is a placed subsequentially in memory, with each element directly following the previous one.
 ![alt text](./image/array2.png)
