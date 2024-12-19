@@ -63,6 +63,9 @@ You can find the code solution in [`zigzagConversion.js`](./zigzagConversion.js)
 22. LeetCode 169. Majority Element https://leetcode.com/problems/majority-element/description/?envType=study-plan-v2&envId=top-interview-150
 You can find the code solution in [`majorityElement.js`](./majorityElement.js)
 
+23. LeetCode 274. H-Index https://leetcode.com/problems/h-index/?envType=study-plan-v2&envId=top-interview-150 </br>
+You can find the code solution in [`hIndex.js`](./hIndex.js)
+
 
 ## 1.1. Array
 array is a placed subsequentially in memory, with each element directly following the previous one.
