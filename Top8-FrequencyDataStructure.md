@@ -97,6 +97,10 @@ array is a placed subsequentially in memory, with each element directly followin
 | Looping     | for, ForEach, for...of, for...in, map,etc                              | forEach, for...of  you cannot access elements by index                   |
 | Mutual Convert     | new Set(arr)                                | Array.from(set); [...set]                   |
 
+1. LeetCode 380 Insert Delete GetRandom O(1) https://leetcode.com/problems/insert-delete-getrandom-o1/?envType=study-plan-v2&envId=top-interview-150 </br>
+You can find the function definition in [`RandomizedSet.js`](./RandomizedSet.js).
+ 
+
 ## 2. Queue(First-In-First-Out),  Stack(First-In-Last-Out)
 ![alt text](./image/queue.png)
 
