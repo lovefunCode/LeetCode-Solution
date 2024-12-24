@@ -19,8 +19,11 @@ console.log(currHour)  //15
 const currMinute = d2.getMinutes()
 console.log(currMinute)  //57
 
-// usually use time as timestamp
-console.log(Date.now())  //1732982053202
+// usually use Date static method Date.now() get as timestamp
+console.log(Date.now())  //1735063321572
+console.log("+++++++")
+// or can use instantiate method new Date().getTime()  
+console.log(new Date().getTime())  //1735063321572
 
 function formatDate(time=null){
     const d = new Date('2024-1-3 6:1')
