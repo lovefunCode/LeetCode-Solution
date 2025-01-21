@@ -13,7 +13,7 @@ const stringToInteger  = function(s){
             continue
         }
         // stop processing if the character is non-numberic
-        if(char.charCodeAt(0) < 48 || char.charCodeAt(0) > 57){
+        if(char.charCodeAt(i) < 48 || char.charCodeAt(i) > 57){
             continue
         }
 

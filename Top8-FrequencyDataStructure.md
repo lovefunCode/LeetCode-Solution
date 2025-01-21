@@ -89,7 +89,7 @@ array is a placed subsequentially in memory, with each element directly followin
 |----------|--------------------------------------------|------------------------------|
 | Create   | let arr = [], arr2 = new Array()           | let set = new Set()          |
 | value    | Any Types(primitives, object, duplicates ) | Unique values only, any type |
-| Access   | arr[index]                                 | set.has(val)                 |
+| Access   | arr[index]   O(1)                              | set.has(val) ,  O(1)               |
 | Add      | arr.push(value)                            | set.add(val)                 |
 | Update   | arr[index] = newValue                      | set.delete(value); set.add(newValue)               |
 | Delete   | arr.splice(index, 1)                       | set.delete(val)              |
@@ -186,10 +186,10 @@ In JavsScript, 2 solutions to create HashMap data structure
 | Size               | NO buil-in Methods to get the size                                                            | map.size                                                              |
 | Performance        | faster for lookups when using string keys                                                     | More efficient for frequent additions and removals                    |
 | Add                | obj[key] = value                                                                              | map.set(key, value)                                                   |
-| Access             | obj[key]                                                                                      | map.get(key)                                                          |
+| Access             | obj[key]                                                                                      | map.get(key)     , Time Complexity: O(1)                                                     |
 | Loop             | for...in, Object.keys(), Object.values(), Object.entries()                                                                                     | forEach(), for...of, map.keys(), map.values(), map.entires()                                                          |
 | Delete             | delete obj[key]                                                                               | map.delete(key)                                                       |
-| Checking existence | key in obj or obj.hasOwnProperty(key)                                                         | map.has(key)                                                          |
+| Checking existence | key in obj or obj.hasOwnProperty(key)                                                         | map.has(key)   , Time Complexity O(1)                                                       |
 | Clone              | Object.assign() or ...                                                                        | new Map(existingMap)                                                  |
 | Memory Usage       | Generally uses less memory for small sets                                                     | More memory-efficient for larger set                                  |
 
