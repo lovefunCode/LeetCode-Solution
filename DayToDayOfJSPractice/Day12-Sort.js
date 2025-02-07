@@ -59,3 +59,14 @@ console.log('arr3---', arr3)
 //     { name: 'Alice', age: 30 },
 //     { name: 'Eve', age: 30 }
 //   ]
+
+// Array.prototype.sort() depends on the JS engine, but commonly, modern engines like 
+//  Chrome and Node.js 
+//  V8(chrome, node.js) : TimSort(hybrid of Merge Sort & Insertion Sort, optimised for
+//  patically sorted data), insertion sort for small arrays
+
+//  SpiderMonkey(FireFox):
+//  Merge Sort : O(nlogn)
+
+// Safari : WebKit
+//  QuickSort
