@@ -67,3 +67,18 @@ class Dog extends AnimalClass{
 
 const dog = new Dog('Rover')
 dog.speak()   // Rover makes a bark
+
+// when you need to explicitly define a constructor in a subclass, you must call super() first
+class Cat extends AnimalClass{
+    constructor(name, breed){
+        super(name)
+        // need to explicitly define a constructor in a subclass
+        this.breed = breed
+    }
+    speak(){
+        console.log(`${this.name} the ${this.breed} barks`)
+    }
+}
+
+const myCat = new Cat('hello kitty', 'red')
+myCat.speak();
