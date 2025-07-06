@@ -33,3 +33,14 @@ const car4 = CarFactory2('Honda', 'Civic')
 
 car3.drive()
 car4.drive()
+
+// es6 class for object-oriented patterns and structured inheritance, provide a clean and 
+// familiar syntax for creating and managing object
+
+// factory pattern is a creational design pattern that provides an interface for creating
+// objects in a way that abstracts the instantiation process.
+// 1.  need conditional object crration based on dynamic conditions
+// 2. encapsulate complex creation logic
+// 3. return different types of objects while keep the interface consistent
+// 4. avoid using new for object creation or prefer to work with plain objects instead of class instances
+
