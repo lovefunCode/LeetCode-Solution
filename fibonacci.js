@@ -77,3 +77,43 @@ console.log(fib(2))
 console.log(fib(3))
 console.log(fib(4))
 console.log(fib(3))
+
+
+function fibTest(){
+    let res = {}
+    return function fib(n){
+        if(n <= 1){
+        return n
+    }
+        if(res[n]){
+            return res[n]
+        }
+        res[n] = fib(n-1)+ fib(n-2)
+        return res[n]
+    }
+}
+
+function fibDP(n){
+    let res = []
+    res[0] = 1
+    res[1] = 1
+    for(let i = 2; i < n; i++){
+        res[i] = res[i-1]+ res[i-2] 
+    }
+    return res[n-1]
+}
+
+console.log("==========")
+
+console.log(fibTest()(1))
+console.log(fibTest()(2))
+console.log(fibTest()(3))
+console.log(fibTest()(4))
+console.log(fibTest()(5))
+
+console.log("**********")
+console.log(fibDP(1))
+console.log(fibDP(2))
+console.log(fibDP(3))
+console.log(fibDP(4))
+console.log(fibDP(5))

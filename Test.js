@@ -47,7 +47,7 @@ class MyPromise{
                 }catch(err){
                     reject(err)
                 }
-            }
+             }
 
             if(this.status == 'fulfilled'){
                 setTimeout(()=> handleCallback(onFulfilled))
@@ -87,4 +87,6 @@ p.then(data=>{
 })
 .catch(err=>{
     console.log('error', err)
+}).finally(fin=>{
+    console.log('fin', fin)
 })
