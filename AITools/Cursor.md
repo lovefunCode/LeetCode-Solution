@@ -13,3 +13,15 @@ Cursor:  (ship faster, safer, and more maintainable code)
     6. Testing (unit test(Jest, vitest) End-To-End test (Cypress))
     7. Code Review
     8. Security Check (audit)
+
+Prompting Engineer(Master the art of Prompting): Augment Prompts Templates
+    1. Context:  give clear context:
+        [System Context] You are an expert React architect with 8 years of experience in building scalable component libraries. 
+Your role is to help senior developers optimize their React codebase. 
+The current situation involves migrating a class-based component system to hooks.
+
+    2. Define Formats: Input & Output Definition
+    3. Examples: 
+    4. Constraints
+    5. Comments
+    6. Language & Principles
