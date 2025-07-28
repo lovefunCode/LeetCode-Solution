@@ -21,5 +21,5 @@ const permutation = function(nums){
     return res
 }
 
-const nums = [1,2,3]
+const nums = ['A', 'B', 'C']
 console.log(permutation(nums))
