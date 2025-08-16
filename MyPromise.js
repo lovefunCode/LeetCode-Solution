@@ -13,6 +13,7 @@ class MyPromise{
                 this.resolvedCbs.forEach(cb=> {
                     if(typeof cb == 'function'){
                         cb(value)
+                        console.log("=====")
                     }
                 })
             }
