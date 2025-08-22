@@ -1,9 +1,9 @@
 # 1. XSS: Cross-Site Scripting(Inject malicious script into a website)
 
 ## Types of XSS Vulnerabilities: 
-    1. Reflected XSS(AKA Non-Persistent or Type| )
-    2. Stored XSS(AKA Persistent or Type ||)
-    3. DOM Based XSS(AKA Type |||)
+    1. Reflected XSS(AKA Non-Persistent )
+    2. Stored XSS(AKA Persistent)
+    3. DOM Based XSS()
 
 ## Prevention:
     1. Validate and Sanitize the input
@@ -40,13 +40,20 @@
     3. Regenerate tokens periodically
     4. Use Refresh token rotation(per 5 ~ 15 mins)
 
-# 7. Man-In-the-Middle(MITM) via public WIFI
+# 7. Man-In-the-Middle(MITM, attacks intercepts and potentially alters the 
+#    the communication between two parties) via public WIFI
+    1. Session Hijacking: taking over an authenticated session to impersonate teh user
+    2. Evasdropping: stealing login credientials, personal data, credit card numbers
 ## Prevention:
     1. Always use HTTPS
     2. Validate SSL/TLS certificate on API calls(moblie apps)
+    3. VPN: encrypts all traffic from your device to a trusted server
 
+# Replay Attack(captures a valid data transmission and fraudulently retransmits/replay)
 
-
+## Prevention:
+    1. Add timestamp
+    2. Add Nonce(Number Useed Once)
 
 
 
