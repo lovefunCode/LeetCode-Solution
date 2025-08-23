@@ -12,4 +12,9 @@
 ## 6. Product Understanding
 ## 7. Architecture & System Design
 
+## Limitations:
+    1. Core Algorithms
+    2. Security Modules
+    3. Architecture Design
+
 
